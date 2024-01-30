@@ -31,7 +31,9 @@ const currentRoute = computed(() => {
   </nav>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../assets/utilities.scss";
+
 .navbar {
   display: flex;
   align-items: flex-start;
@@ -49,6 +51,6 @@ const currentRoute = computed(() => {
   text-transform: uppercase;
 }
 .navbar__element--active {
-  color: var(--primary);
+  color: $primary;
 }
 </style>

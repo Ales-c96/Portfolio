@@ -9,13 +9,19 @@ const currentRoute = computed(() => {
 <template>
   <footer class="container__element footer">
     <div class="footer__social">
-      <a class="footer__link" title="Perfil de GitHub" href="https://github.com/Ales-c96">
+      <a
+        class="footer__link"
+        title="Perfil de GitHub"
+        href="https://github.com/Ales-c96"
+        target="_blank"
+      >
         <i class="fa-brands fa-github"></i>
       </a>
       <a
         class="footer__link"
         title="Perfil de LinkedIn"
         href="https://www.linkedin.com/in/alejandro-cordero-diadosa/"
+        target="_blank"
         ><i class="fa-brands fa-linkedin"></i>
       </a>
     </div>
@@ -23,7 +29,8 @@ const currentRoute = computed(() => {
   </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../assets/utilities.scss";
 .footer {
   display: flex;
   justify-content: center;
@@ -38,24 +45,24 @@ const currentRoute = computed(() => {
 }
 .footer__link {
   font-size: 2rem;
-  color: var(--primary);
+  color: $primary;
   transition: 0.3s ease all;
 }
 .footer__link:hover {
-  color: #fff;
+  color: $light;
 }
 .footer__button {
   padding: 0.5rem 1rem;
-  background-color: var(--primary);
-  color: #000;
-  border: .2rem solid var(--primary);
+  background-color: $primary;
+  color: $dark;
+  border: 0.2rem solid $primary;
   border-radius: 0.5rem;
   transition: 0.3s ease all;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 900;
 }
 .footer__button:hover {
   background-color: transparent;
-  color: var(--primary);
+  color: $primary;
 }
 </style>
