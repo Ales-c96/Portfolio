@@ -21,44 +21,24 @@
     <div class="about-knowledge">
       <h2 class="about-knowledge__title">Conocimientos</h2>
       <div class="about-knowledge__knowledges">
-        <div class="about-knowledge__first-section">
-          <div>
-            <h3 class="first-section">Lenguajes</h3>
-            <ul>
-              <li>JavaScript</li>
-              <li>PHP</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
+        <div class="about-knowledge__section">
+          <div class="about-knowledge__section-container">
+            <h3>Lenguajes <i class="fa-solid fa-terminal"></i></h3>
+            <p>JavaScript, PHP, HTML, CSS</p>
           </div>
-          <div>
-            <h3>Frameworks y Bibliotecas</h3>
-            <ul>
-              <li>jQuery</li>
-              <li>Axios</li>
-              <li>SCSS</li>
-              <li>Bootstrap</li>
-              <li>Tailwind</li>
-              <li>VueJS</li>
-              <li>FormKit</li>
-            </ul>
+          <div class="about-knowledge__section-container">
+            <h3>Frameworks y Bibliotecas <i class="fa-solid fa-book"></i></h3>
+            <p>jQuery, Axios, SCSS, Bootstrap, Tailwind, VueJS, FormKit</p>
           </div>
         </div>
-        <div class="about-knowledge__second-section">
-          <div>
-            <h3>Bases de datos</h3>
-            <ul>
-              <li>MySql</li>
-              <li>MongoDB</li>
-            </ul>
+        <div class="about-knowledge__section">
+          <div class="about-knowledge__section-container">
+            <h3>Bases de datos <i class="fa-solid fa-database"></i></h3>
+            <p>MySql, MongoDB</p>
           </div>
-          <div>
-            <h3>Herramientas</h3>
-            <ul>
-              <li>VScode</li>
-              <li>MySQL Workbench</li>
-              <li>Git</li>
-            </ul>
+          <div class="about-knowledge__section-container">
+            <h3>Herramientas <i class="fa-solid fa-screwdriver-wrench"></i></h3>
+            <p>VScode, MySQL Workbench, Git</p>
           </div>
         </div>
       </div>
@@ -91,18 +71,43 @@
   &__description {
     color: $light;
     line-height: 1.2rem;
-    letter-spacing: 0.1rem;
     margin-bottom: 3rem;
   }
 }
 .about-knowledge {
   &__title {
     font-size: 1.5rem;
+    text-align: center;
     color: $light;
   }
   &__knowledges {
     display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
     color: $light;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: auto;
+      width: 10rem;
+      & h3 {
+        font-weight: 700;
+        line-height: 1.5rem;
+        color: $primary;
+        margin-bottom: 0.5rem;
+      }
+      & p {
+        line-height: 1.5rem;
+      }
+    }
   }
 }
 </style>
