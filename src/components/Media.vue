@@ -5,6 +5,13 @@ import { computed } from "vue";
 const currentRoute = computed(() => {
   return this.$route.path;
 });
+
+const downloadPDF = () => {
+  const link = document.createElement("a");
+  link.href = `${window.location.href}/src/assets/pdf/cv.pdf`;
+  link.download = "AlejandroCordero_CV.pdf";
+  link.click();
+};
 </script>
 <template>
   <footer class="container__element footer">
@@ -25,7 +32,7 @@ const currentRoute = computed(() => {
         ><i class="fa-brands fa-linkedin"></i>
       </a>
     </div>
-    <button class="footer__button">Download CV</button>
+    <button class="footer__button" @click="downloadPDF">Descargar CV</button>
   </footer>
 </template>
 
@@ -37,6 +44,7 @@ const currentRoute = computed(() => {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  padding: 2rem;
 }
 .footer__social {
   display: flex;

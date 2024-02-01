@@ -7,11 +7,11 @@ import Controls from "./components/Controls.vue";
 
 <template>
   <main class="container">
-    <div class="container__aside">
+    <aside class="container__aside">
       <NavigationBar />
-      <Media />
       <Controls />
-    </div>
+      <Media />
+    </aside>
     <div class="container__element main-content">
       <RouterView />
     </div>
@@ -28,19 +28,20 @@ body {
   height: 100vh;
 }
 .container {
+  width: 75rem;
+  height: 40rem;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   gap: 2rem;
 
   &__element {
-    padding: 2rem;
     background-color: $dark;
     box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
     border-radius: 1rem;
+    height: 100%;
   }
 
   &__aside {
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -51,7 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
-  width: 60rem;
-  height: 35rem;
+  width: 100%;
+  height: 100%;
 }
 </style>

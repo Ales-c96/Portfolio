@@ -39,6 +39,7 @@ const currentRoute = computed(() => {
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;
+  padding: 2rem;
 }
 .navbar__element {
   display: flex;
