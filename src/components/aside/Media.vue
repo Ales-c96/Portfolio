@@ -37,12 +37,13 @@ const downloadPDF = () => {
 </template>
 
 <style lang="scss" scoped>
-@import "../assets/utilities.scss";
+@import "../../assets/utilities.scss";
 .footer {
-  display: flex;
+  @include box();
+  @include dflexCol();
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  
   gap: 2rem;
   padding: 2rem;
 }
@@ -62,7 +63,7 @@ const downloadPDF = () => {
 .footer__button {
   padding: 0.5rem 1rem;
   background-color: $primary;
-  color: $dark;
+  
   border: 0.2rem solid $primary;
   border-radius: 0.5rem;
   transition: 0.3s ease all;

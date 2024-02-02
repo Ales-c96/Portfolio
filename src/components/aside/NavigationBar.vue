@@ -13,7 +13,7 @@ const currentRoute = computed(() => {
       active-class="navbar__element--active"
       :to="{ name: 'about' }"
     >
-      <i class="fa-solid fa-house"></i>
+      <i class="fa-solid fa-address-card"></i>
       About</RouterLink
     >
     <RouterLink
@@ -32,12 +32,12 @@ const currentRoute = computed(() => {
 </template>
 
 <style lang="scss" scoped>
-@import "../assets/utilities.scss";
+@import "../../assets/utilities.scss";
 
 .navbar {
-  display: flex;
+  @include box();
+  @include dflexCol();
   align-items: flex-start;
-  flex-direction: column;
   gap: 2rem;
   padding: 2rem;
 }
@@ -46,12 +46,12 @@ const currentRoute = computed(() => {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  color: #fff;
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
-}
-.navbar__element--active {
-  color: $primary;
+
+  &--active {
+    color: $primary;
+  }
 }
 </style>
