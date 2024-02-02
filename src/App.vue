@@ -21,8 +21,8 @@ import Controls from "./components/aside/Controls.vue";
 <style lang="scss" scoped>
 @import "./assets/utilities.scss";
 .main {
-  width: 100%;
-  height: 100%;
+  width: 70rem;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,7 @@ import Controls from "./components/aside/Controls.vue";
   &__aside {
     @include dflexCol();
     gap: 2rem;
+    height: 100%;
   }
 
   &__content {

@@ -1,11 +1,31 @@
 {
     "about": {
-
+        "description": {
+            "title": "Hola, soy Alex",
+            "description": "Me sumergí en el mundo del desarrollo web frontend después de explorar el terreno del marketing. con este trasfondo, aprendí a captar la atención del usuario, pero lo que realmente me gusta es la creatividad. Me encanta convertir mis ideas y gustos en experiencia palpable en la interfaz del usuario. Siempre estoy listo para desafíos que me hagan seguir creciendo en el mundo del diseño y desarrollo "
+        },
+        "aptitudes": {
+            "title": "Conocimientos",
+            "aptitudes": {
+                "langs": {
+                    "title": "Lenguajes",
+                    "list": "JavaScript, PHP, HTML, CSS"
+                },
+                "frwkLibs": {
+                    "title": "Frameworks y Bibliotecas",
+                    "list": "VueJS, JQuery, Axios, SASS, Bootstrap, Tailwind"
+                },
+                "databases": {
+                    "title": "Bases de datos",
+                    "list": "MySql, MongoDB"
+                },
+                "tools": {
+                    "title": "Herramientas",
+                    "list": "VSCode, Lighthouse, Git, npm"
+                }
+            }
+        }
     },
-    "projects": {
-
-    },
-    "contat": {
-        
-    }
+    "projects": {},
+    "contat": {}
 }

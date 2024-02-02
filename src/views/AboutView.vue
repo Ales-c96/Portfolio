@@ -1,11 +1,18 @@
 <script setup>
 import Description from "../components/Description.vue";
 import Aptitudes from "../components/Aptitudes.vue";
+
+const props = defineProps({
+  data: {
+    type: Object,
+    required: true,
+  },
+});
 </script>
 <template>
   <div class="container">
-    <Description />
-    <Aptitudes />
+    <Description :data="data.description" />
+    <Aptitudes :data="data.aptitudes" />
   </div>
 </template>
 
