@@ -1,12 +1,13 @@
 //Variables
 $dark: #2c2c2c;
 $primary: #00bea2;
+$primary-hover: #02957f;
 $primary-lock: #00bea135;
 $light: #e8e8e8;
 $dark-body-bg: linear-gradient(60deg, rgba(0, 12, 50, 1) 0%, rgba(41, 41, 41, 1) 100%);
 $dark-body-color: #fff;
 $light-body-bg: linear-gradient(60deg, rgba(0, 117, 198, 0.14609593837535018) 29%, rgba(255, 255, 255, 1) 100%);
-$light-body-color: #000;
+$light-body-color: #000000af;
 
 @media (prefers-color-scheme: light) {
   body {
@@ -24,14 +25,19 @@ $light-body-color: #000;
   }
 }
 
-
+$min-width: 320px;
+$max-width: 1200px;
 
 //Mixins
-@mixin box() {
+@mixin box($param-width: auto) {
   background-color: transparent;
   box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
   border-radius: 1rem;
   height: 100%;
+
+  @media screen and (min-width: $min-width) and (max-width: $max-width) {
+    width: $param-width;
+  }
 }
 
 @mixin dflexCol() {

@@ -51,9 +51,10 @@ const { localTheme, toggleTheme } = useControls();
       background-color: $primary-lock;
       color: $primary;
       cursor: pointer;
+      transition: .3s ease all;
 
       &:hover {
-        color: $light;
+        color: $primary-hover;
       }
     }
 

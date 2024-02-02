@@ -3,17 +3,16 @@ import { RouterView } from "vue-router";
 import NavigationBar from "./components/aside/NavigationBar.vue";
 import Media from "./components/aside/Media.vue";
 import Controls from "./components/aside/Controls.vue";
-
 </script>
 
 <template>
-  <main class="main-container">
-    <aside class="main-container__aside">
+  <main class="main">
+    <aside class="main__aside">
       <NavigationBar />
       <Controls />
       <Media />
     </aside>
-    <div class="main-content">
+    <div class="main__content">
       <RouterView />
     </div>
   </main>
@@ -21,12 +20,13 @@ import Controls from "./components/aside/Controls.vue";
 
 <style lang="scss" scoped>
 @import "./assets/utilities.scss";
-.main-container {
-  width: 100vw;
-  height: 100vh;
+.main {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 
   &__aside {
     @include dflexCol();
@@ -34,6 +34,8 @@ import Controls from "./components/aside/Controls.vue";
   }
 
   &__content {
+    width: 55rem;
+    @include box(20rem);
   }
 }
 </style>
