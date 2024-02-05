@@ -30,13 +30,15 @@ import Controls from "./components/aside/Controls.vue";
 
   &__aside {
     @include dflexCol();
-    gap: 2rem;
+    justify-content: space-between;
     height: 100%;
   }
 
   &__content {
     width: 55rem;
-    @include box(20rem);
+    height: calc(100% - 4rem);
+    padding: 2rem;
+    @include box();
   }
 }
 </style>

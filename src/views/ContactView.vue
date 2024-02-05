@@ -1,13 +1,12 @@
-<template>
-    <div>
-        <h2>contact form</h2>
-    </div>
-</template>
-
 <script setup>
-
+import ContactForm from "../components/contactView/ContactForm.vue";
 </script>
 
-<style scoped>
+<template>
+  <div>
+    <h2>Contactame rellenando el siguiente formulario</h2>
+    <ContactForm />
+  </div>
+</template>
 
-</style>
+<style scoped></style>

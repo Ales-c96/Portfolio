@@ -20,9 +20,13 @@ export default function useControls() {
     body.value.classList.add(localTheme.value);
     localStorage.setItem("theme", localTheme.value);
   };
-  
+
+  const selectLang = (lang) => {
+    
+  };
+
   return {
     localTheme,
-    toggleTheme
+    toggleTheme,
   };
 }

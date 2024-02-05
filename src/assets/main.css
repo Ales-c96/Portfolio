@@ -2,6 +2,9 @@
 	font-family: 'Quicksand';
 	src: url('./fonts/Quicksand-Regular.ttf') format('truetype');
 }
+h1, h2, h3, h4, p, button, span, a {
+	transition: .3s ease all;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -32,7 +35,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body{
 	display: inline-block;
-	transition: .3s ease all;
 }
 ol, ul {
 	list-style: none;
@@ -48,19 +50,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-::-webkit-scrollbar {
-	width: 10px;
-}
-
-::-webkit-scrollbar-track {
-	background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: #d9a90a;
-	border-radius: 10px;
 }
   
   

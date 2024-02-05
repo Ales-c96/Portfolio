@@ -50,6 +50,10 @@ const currentRoute = computed(() => {
   font-size: 1.3rem;
   text-transform: uppercase;
 
+  &:hover {
+    color: $light-hover;
+  }
+  
   &--active {
     color: $primary;
   }

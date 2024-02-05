@@ -33,6 +33,12 @@ const downloadPDF = () => {
       </a>
     </div>
     <button class="footer__button" @click="downloadPDF">Descargar CV</button>
+    <a
+      class="footer__mailto"
+      href="mailto:alejandro.c9.d6@gmail.com"
+      title="mailto:alejandro.c9.d6@gmail.com Haz click para enviar un email"
+      >alejandro.c9.d6@gmail.com</a
+    >
   </footer>
 </template>
 
@@ -43,7 +49,7 @@ const downloadPDF = () => {
   @include dflexCol();
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   padding: 2rem;
 
   &__social {
@@ -71,6 +77,14 @@ const downloadPDF = () => {
     &:hover {
       background-color: transparent;
       color: $primary;
+    }
+  }
+  &__mailto {
+    color: $primary;
+    transition: 0.3s;
+
+    &:hover {
+      color: $primary-hover;
     }
   }
 }

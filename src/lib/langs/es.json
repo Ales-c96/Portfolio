@@ -6,26 +6,60 @@
         },
         "aptitudes": {
             "title": "Conocimientos",
-            "aptitudes": {
-                "langs": {
+            "aptitudes": [
+                {
                     "title": "Lenguajes",
                     "list": "JavaScript, PHP, HTML, CSS"
                 },
-                "frwkLibs": {
+                {
                     "title": "Frameworks y Bibliotecas",
                     "list": "VueJS, JQuery, Axios, SASS, Bootstrap, Tailwind"
                 },
-                "databases": {
+                {
                     "title": "Bases de datos",
                     "list": "MySql, MongoDB"
                 },
-                "tools": {
+                {
                     "title": "Herramientas",
                     "list": "VSCode, Lighthouse, Git, npm"
                 }
-            }
+            ]
         }
     },
-    "projects": {},
+    "projects": {
+        "title": "Proyectos",
+        "projects": [
+            {
+                "title": "Proyecto 1",
+                "thumb": "https://picsum.photos/id/237/536/354",
+                "thumbAlt" : "imagen del proyecto",
+                "url": "https://picsum.photos/id/237/536/354"
+            },
+            {
+                "title": "Proyecto 2",
+                "thumb": "https://picsum.photos/id/237/536/354",
+                "thumbAlt" : "imagen del proyecto",
+                "url": "https://picsum.photos/id/237/536/354"
+            },
+            {
+                "title": "Proyecto 3",
+                "thumb": "https://picsum.photos/id/237/536/354",
+                "thumbAlt" : "imagen del proyecto",
+                "url": "https://picsum.photos/id/237/536/354"
+            },
+            {
+                "title": "Proyecto 4",
+                "thumb": "https://picsum.photos/id/237/536/354",
+                "thumbAlt" : "imagen del proyecto",
+                "url": "https://picsum.photos/id/237/536/354"
+            },
+            {
+                "title": "Proyecto 5",
+                "thumb": "https://picsum.photos/id/237/536/354",
+                "thumbAlt" : "imagen del proyecto",
+                "url": "https://picsum.photos/id/237/536/354"
+            }
+        ]
+    },
     "contat": {}
 }

@@ -18,13 +18,12 @@ const props = defineProps({
 </template>
 
 <style lang="scss" scoped>
-@import "../assets/utilities.scss";
+@import "../../assets/utilities.scss";
 .container {
   @include dflexCol();
   gap: 2rem;
   &__title {
-    font-size: 2rem;
-    font-weight: 600;
+    @include sectionTitle();
   }
 
   &__description {

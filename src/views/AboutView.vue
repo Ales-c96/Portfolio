@@ -1,6 +1,6 @@
 <script setup>
-import Description from "../components/Description.vue";
-import Aptitudes from "../components/Aptitudes.vue";
+import Description from "../components/aboutView/Description.vue";
+import Aptitudes from "../components/aboutView/Aptitudes.vue";
 
 const props = defineProps({
   data: {
@@ -10,7 +10,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="container">
+  <div class="about">
     <Description :data="data.description" />
     <Aptitudes :data="data.aptitudes" />
   </div>
@@ -18,7 +18,8 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 @import "../assets/utilities.scss";
-.container {
-  padding: 2rem;
+.about {
+  @include dflexCol();
+  gap: 3rem;
 }
 </style>

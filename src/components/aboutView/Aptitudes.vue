@@ -19,7 +19,7 @@ const props = defineProps({
 </template>
 
 <style lang="scss" scoped>
-@import "../assets/utilities.scss";
+@import "../../assets/utilities.scss";
 .container {
   @include dflexCol();
   gap: 1rem;
