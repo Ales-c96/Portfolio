@@ -22,7 +22,7 @@ const props = defineProps({
   @include dflexCol();
   gap: 2rem;
   max-height: -webkit-fill-available;
-  overflow: scroll;
+  overflow: overlay;
 
   &__title {
     @include sectionTitle();

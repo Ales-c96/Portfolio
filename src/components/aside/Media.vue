@@ -37,7 +37,7 @@ const downloadPDF = () => {
       class="footer__mailto"
       href="mailto:alejandro.c9.d6@gmail.com"
       title="mailto:alejandro.c9.d6@gmail.com Haz click para enviar un email"
-      >alejandro.c9.d6@gmail.com</a
+      ><i class="fa-solid fa-envelope"></i></a
     >
   </footer>
 </template>

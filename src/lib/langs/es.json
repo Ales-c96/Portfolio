@@ -30,34 +30,76 @@
         "title": "Proyectos",
         "projects": [
             {
-                "title": "Proyecto 1",
-                "thumb": "https://picsum.photos/id/237/536/354",
-                "thumbAlt" : "imagen del proyecto",
-                "url": "https://picsum.photos/id/237/536/354"
+                "title": "Buscador de clima",
+                "thumb": "src/assets/img/wheaderapp.webp",
+                "thumbAlt": "imagen del proyecto buscador de climas",
+                "url": "https://weather-app-mu-murex.vercel.app/",
+                "githubUrl": "",
+                "tec": [
+                    "src/assets/svg/vue.svg",
+                    "src/assets/svg/html.svg",
+                    "src/assets/svg/css.svg"
+                ]
             },
             {
-                "title": "Proyecto 2",
-                "thumb": "https://picsum.photos/id/237/536/354",
-                "thumbAlt" : "imagen del proyecto",
-                "url": "https://picsum.photos/id/237/536/354"
+                "title": "Recetas de bebidas y cocteles",
+                "thumb": "src/assets/img/coctailrecipes.webp",
+                "thumbAlt": "imagen del proyecto de buscador de bebidas",
+                "url": "https://coctail-recipes.vercel.app/",
+                "githubUrl": "",
+                "tec": [
+                    "src/assets/svg/vue.svg",
+                    "src/assets/svg/html.svg",
+                    "src/assets/svg/tailwind.svg"
+                ]
             },
             {
-                "title": "Proyecto 3",
-                "thumb": "https://picsum.photos/id/237/536/354",
-                "thumbAlt" : "imagen del proyecto",
-                "url": "https://picsum.photos/id/237/536/354"
+                "title": "Cotizador de criptomonedas",
+                "thumb": "src/assets/img/criptoquoter.webp",
+                "thumbAlt": "imagen del proyecto",
+                "url": "https://simple-cripto-quoter.vercel.app/",
+                "githubUrl": "",
+                "tec": [
+                    "src/assets/svg/vue.svg",
+                    "src/assets/svg/html.svg",
+                    "src/assets/svg/css.svg"
+                ]
             },
             {
-                "title": "Proyecto 4",
-                "thumb": "https://picsum.photos/id/237/536/354",
-                "thumbAlt" : "imagen del proyecto",
-                "url": "https://picsum.photos/id/237/536/354"
+                "title": "Administrador de clientes clinica veterinaria",
+                "thumb": "src/assets/img/vetCrm.webp",
+                "thumbAlt": "imagen del proyecto",
+                "url": "https://simple-vet-crm.vercel.app/",
+                "githubUrl": "",
+                "tec": [
+                    "src/assets/svg/vue.svg",
+                    "src/assets/svg/html.svg",
+                    "src/assets/svg/tailwind.svg"
+                ]
             },
             {
-                "title": "Proyecto 5",
-                "thumb": "https://picsum.photos/id/237/536/354",
-                "thumbAlt" : "imagen del proyecto",
-                "url": "https://picsum.photos/id/237/536/354"
+                "title": "Administrador de Presupuesto",
+                "thumb": "src/assets/img/budgetmanager.webp",
+                "thumbAlt": "imagen del proyecto",
+                "url": "https://budget-manager-psi.vercel.app/",
+                "githubUrl": "",
+                "tec": [
+                    "src/assets/svg/vue.svg",
+                    "src/assets/svg/html.svg",
+                    "src/assets/svg/sass.svg"
+                ]
+            },
+            {
+                "title": "Tienda con carrito",
+                "thumb": "src/assets/img/shop.webp",
+                "thumbAlt": "imagen del proyecto",
+                "url": "https://template-shop-with-cart.vercel.app/",
+                "githubUrl": "",
+                "tec": [
+                    "src/assets/svg/vue.svg",
+                    "src/assets/svg/html.svg",
+                    "src/assets/svg/css.svg"
+                ]
             }
         ]
     },

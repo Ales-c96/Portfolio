@@ -15,15 +15,36 @@ const props = defineProps({
   >
     <div class="card__item">
       <h2 class="card__title">{{ project.title }}</h2>
-      <a
-        class="card__link"
-        :href="project.url"
-        target="_blank"
-        title="Ver proyecto"
-        rel="noopener noreferrer"
-      >
-        <i class="fa-solid fa-eye"></i>
-      </a>
+      <div class="card__tecs">
+        <div>
+          <img
+            class="card__tecs-icon"
+            v-for="icons in project.tec"
+            :src="icons"
+            :alt="`Icono de la tecnologia`"
+          />
+        </div>
+        <div class="card__links">
+          <a
+            class="link"
+            :href="project.url"
+            target="_blank"
+            title="Ver proyecto"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-solid fa-eye"></i>
+          </a>
+          <a
+            :href="project.githubUrl"
+            class="link"
+            target="_blank"
+            title="Ver proyecto en github"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
     </div>
   </article>
 </template>
@@ -32,7 +53,6 @@ const props = defineProps({
 @import "../../assets/utilities.scss";
 .card {
   position: relative;
-  @include box();
   @include dflexCol();
   justify-content: center;
   align-items: center;
@@ -40,38 +60,67 @@ const props = defineProps({
   height: 12rem;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.2rem;
   object-fit: cover;
   overflow: hidden;
   transition: 0.3s ease all;
 
   &:hover {
-    filter: grayscale(1);
+    transform: scale(1.1);
+    box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
+    .card__item {
+      opacity: 1;
+      transform: translateY(3rem);
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.554);
+    }
   }
 
   &__item {
     width: 100%;
     height: 100%;
     @include dflexCol();
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
+    padding: 1rem;
     transition: 0.3s ease all;
     opacity: 0;
-
-    &:hover {
-      opacity: 1;
-    }
+    background-color: #fff;
+    color: #000;
+    transform: translateY(15rem);
   }
 
   &__title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: white;
+    color: #000;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%;
   }
 
-  &__link {
-    color: $light;
-    font-size: 2rem;
+  &__tecs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+
+    &-icon {
+      width: 2rem;
+      height: auto;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 0.5rem;
+    .link {
+      color: #000;
+      font-size: 1.3rem;
+    }
   }
 }
 </style>

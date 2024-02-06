@@ -35,7 +35,6 @@ import Controls from "./components/aside/Controls.vue";
   }
 
   &__content {
-    width: 55rem;
     height: calc(100% - 4rem);
     padding: 2rem;
     @include box();
