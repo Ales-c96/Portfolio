@@ -45,6 +45,7 @@ const downloadPDF = () => {
 <style lang="scss" scoped>
 @import "../../assets/utilities.scss";
 .footer {
+  height: 100%;
   @include box();
   @include dflexCol();
   justify-content: center;
