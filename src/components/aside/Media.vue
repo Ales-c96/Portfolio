@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import { computed } from "vue";
+import ThemeSelector from "../UI/ThemeSelector.vue";
 
 const currentRoute = computed(() => {
   return this.$route.path;
@@ -37,8 +38,9 @@ const downloadPDF = () => {
       class="footer__mailto"
       href="mailto:alejandro.c9.d6@gmail.com"
       title="mailto:alejandro.c9.d6@gmail.com Haz click para enviar un email"
-      ><i class="fa-solid fa-envelope"></i></a
-    >
+      ><i class="fa-solid fa-envelope"></i
+    ></a>
+    <ThemeSelector />
   </footer>
 </template>
 

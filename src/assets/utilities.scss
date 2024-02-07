@@ -1,7 +1,7 @@
 //Variables
 $primary: #006ff9;
 $primary-hover: #0054bb;
-$primary-lock: #0070f948;
+$primary-lock: #004ca996;
 $light: #e8e8e8;
 $dark: #2c2c2c;
 $light-hover: #b9b9b9;
@@ -64,4 +64,16 @@ $max-width: 1200px;
   0% { color: $primary; }
   50% { color: $primary-hover; }
   100% { color: $primary; }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
