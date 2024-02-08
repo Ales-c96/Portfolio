@@ -1,0 +1,23 @@
+:root {
+    --primary: #000;
+    --secondary: #ffffff;
+    --hover: #5a5a5a;
+    --body-bg: #fff;
+    --body-color: #000;
+    --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
+}
+
+[data-theme='dark'] {
+    --primary: #f0f0f0;
+    --secondary: #303030;
+    --hover: #d6d6d6;
+    --body-bg: #303030;
+    --body-color: #f0f0f0;
+    --shadow-color: 0px 7px 15px 1px rgba(255, 255, 255, 0.605);
+}
+
+body {
+    transition: .5s ease all;
+    background-color: var(--body-bg);
+    color: var(--body-color);
+}

@@ -1,5 +1,5 @@
 <script setup>
-import { watch, ref } from "vue";
+import { ref } from "vue";
 import Card from "../components/projectsView/Card.vue";
 const props = defineProps({
   data: {
@@ -7,6 +7,7 @@ const props = defineProps({
     required: true,
   },
 });
+
 const hideArrow = ref(false);
 
 const handleScrollArrow = (event) => {
@@ -17,7 +18,7 @@ const handleScrollArrow = (event) => {
   <div @scroll="handleScrollArrow" class="projects">
     <h2 class="projects__title">{{ data.title }}</h2>
     <div class="projects__grid">
-      <Card :data="data" />
+      <Card v-for="data in data.projects" :key="data.id" :data="data" />
     </div>
     <div class="arrow">
       <i
@@ -43,13 +44,12 @@ const handleScrollArrow = (event) => {
   &__grid {
     @include dflexWrap();
     justify-content: center;
-    position: relative;
     gap: 2rem;
   }
   .arrow {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 1rem;
+    right: 1.5rem;
     animation: bounce 1.5s infinite;
 
     &__icon {

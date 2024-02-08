@@ -5,7 +5,12 @@
 h1, h2, h3, h4, p, button, span, a {
 	transition: .3s ease all;
 }
-
+hr {
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 0;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,5 +56,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-  
-  
+
+/* CUSTOM */
+::-webkit-scrollbar {
+    display: none;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}

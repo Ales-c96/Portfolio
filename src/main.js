@@ -1,6 +1,6 @@
-import './assets/main.css'
-import './assets/style.scss'
 import '@fortawesome/fontawesome-free/css/all.css'
+import './assets/reset.css'
+import './assets/theme.css'
 import { plugin, defaultConfig } from '@formkit/vue'
 import { createApp } from 'vue'
 import App from './App.vue'

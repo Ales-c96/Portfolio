@@ -1,43 +1,16 @@
-//Variables
-$primary: #006ff9;
-$primary-hover: #0054bb;
-$primary-lock: #004ca996;
-$light: #e8e8e8;
-$dark: #2c2c2c;
-$light-hover: #b9b9b9;
-$dark-body-bg: linear-gradient(60deg, rgba(0, 12, 50, 1) 0%, rgba(41, 41, 41, 1) 100%);
-$dark-body-color: #fff;
-$light-body-bg: linear-gradient(60deg, rgba(0, 117, 198, 0.14609593837535018) 29%, rgba(255, 255, 255, 1) 100%);
-$light-body-color: #000000af;
-
-@media (prefers-color-scheme: light) {
-  body {
-    overflow: hidden;
-    background: $light-body-bg;
-    color: $light-body-color;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    overflow: hidden;
-    background: $dark-body-bg;
-    color: $dark-body-color;
-  }
-}
-
-$min-width: 320px;
-$max-width: 1200px;
+// Variables por defecto
+$primary: var(--primary);
+$secondary: var(--secondary);
+$hover: var(--hover);
+$body-bg: var(--body-bg);
+$body-color: var(--body-color);
+$shadow-color: var(--shadow-color);
 
 //Mixins
 @mixin box($param-width: auto) {
   background-color: transparent;
-  box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
+  box-shadow: $shadow-color;
   border-radius: .5rem;
-
-  @media screen and (min-width: $min-width) and (max-width: $max-width) {
-    width: $param-width;
-  }
 }
 
 @mixin sectionTitle() {
@@ -60,20 +33,56 @@ $max-width: 1200px;
 }
 
 //Animaciones
-@keyframes fade-between-colors {
-  0% { color: $primary; }
-  50% { color: $primary-hover; }
-  100% { color: $primary; }
+@keyframes slide-between-colors {
+  0% {
+    color: $primary;
+  }
+
+  50% {
+    color: $hover;
+  }
+
+  100% {
+    color: $primary;
+  }
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-20px);
   }
+
   60% {
     transform: translateY(-10px);
   }
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(10rem);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }

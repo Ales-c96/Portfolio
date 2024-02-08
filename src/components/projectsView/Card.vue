@@ -8,18 +8,14 @@ const props = defineProps({
 </script>
 
 <template>
-  <article
-    v-for="project in data.projects"
-    class="card"
-    :style="`background-image: url(${project.thumb})`"
-  >
+  <article class="card" :style="`background-image: url(${data.thumb})`">
     <div class="card__item">
-      <h2 class="card__title">{{ project.title }}</h2>
+      <h2 class="card__title">{{ data.title }}</h2>
       <div class="card__tecs">
         <div>
           <img
             class="card__tecs-icon"
-            v-for="icons in project.tec"
+            v-for="icons in data.tec"
             :src="icons"
             :alt="`Icono de la tecnologia`"
           />
@@ -27,7 +23,7 @@ const props = defineProps({
         <div class="card__links">
           <a
             class="link"
-            :href="project.url"
+            :href="data.url"
             target="_blank"
             title="Ver proyecto"
             rel="noopener noreferrer"
@@ -35,7 +31,7 @@ const props = defineProps({
             <i class="fa-solid fa-eye"></i>
           </a>
           <a
-            :href="project.githubUrl"
+            :href="data.githubUrl"
             class="link"
             target="_blank"
             title="Ver proyecto en github"
