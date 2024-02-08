@@ -60,11 +60,12 @@ const props = defineProps({
   border-radius: 0.2rem;
   object-fit: cover;
   overflow: hidden;
+  box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
   transition: 0.3s ease all;
 
   &:hover {
     transform: scale(1.1);
-    box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
+    box-shadow: 0px 7px 20px 8px rgba(0, 0, 0, 0.554);
     .card__item {
       opacity: 1;
       transform: translateY(3rem);

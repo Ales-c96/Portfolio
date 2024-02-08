@@ -38,6 +38,10 @@ const handleScrollArrow = (event) => {
   max-height: -webkit-fill-available;
   overflow: overlay;
 
+  @include breakpoint(768px) {
+    flex-direction: row;
+  }
+
   &__title {
     @include sectionTitle();
   }
@@ -45,6 +49,10 @@ const handleScrollArrow = (event) => {
     @include dflexWrap();
     justify-content: center;
     gap: 2rem;
+
+    @include breakpoint(768px) {
+      flex-wrap: nowrap;
+    }
   }
   .arrow {
     position: absolute;
@@ -61,6 +69,10 @@ const handleScrollArrow = (event) => {
       &--hide {
         opacity: 0;
       }
+    }
+
+    @include breakpoint(768px) {
+      display: none;
     }
   }
 }

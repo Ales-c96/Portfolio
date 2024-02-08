@@ -27,7 +27,7 @@
         }
     },
     "projects": {
-        "title": "Proyectos",
+        "title": "Mis proyectos y sus tecnologías",
         "projects": [
             {
                 "id": "1",
@@ -109,5 +109,8 @@
             }
         ]
     },
-    "contat": {}
+    "contact": {
+        "title": "¿Nos ponemos en contacto?",
+        "description": "Si estas interesado en colaborar conmigo rellena el formulario y me pondré en contacto contigo"
+    }
 }

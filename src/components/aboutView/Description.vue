@@ -8,9 +8,6 @@ const props = defineProps({
 </script>
 <template>
   <div class="container">
-    <h2 class="container__title">
-      {{ data.title }}
-    </h2>
     <p class="container__description">
       {{ data.description }}
     </p>
@@ -22,9 +19,6 @@ const props = defineProps({
 .container {
   @include dflexCol();
   gap: 2rem;
-  &__title {
-    @include sectionTitle();
-  }
 
   &__description {
   }

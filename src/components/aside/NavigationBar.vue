@@ -9,6 +9,7 @@ const currentRoute = computed(() => {
 </script>
 <template>
   <nav class="navbar">
+    <div class="navbar__controls"></div>
     <ThemeSelector />
     <RouterLink
       class="navbar__element"
@@ -43,6 +44,17 @@ const currentRoute = computed(() => {
   align-items: flex-start;
   gap: 1rem;
   padding: 2rem;
+
+  @include breakpoint(768px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $secondary;
+    border-radius: 0;
+    z-index: 1;
+  }
+
 }
 .navbar__element {
   display: flex;

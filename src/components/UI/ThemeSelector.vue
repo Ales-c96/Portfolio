@@ -21,7 +21,7 @@ const { getTheme } = useTheme();
   left: -2rem;
   width: 4rem;
   height: 4rem;
-  border: .2rem solid $primary;
+  border: 0.2rem solid $primary;
   background-color: $secondary;
   border-radius: 100vw;
   display: flex;
@@ -29,6 +29,11 @@ const { getTheme } = useTheme();
   align-items: center;
   box-shadow: $shadow-color;
   cursor: pointer;
+
+  @include breakpoint(768px) {
+    top: 1rem;
+    left: 17rem;
+  }
 
   &__chackbox {
     display: none;

@@ -33,12 +33,20 @@ const props = defineProps({
     @include dflexWrap();
     gap: 5rem;
 
+    @include breakpoint(768px) {
+      gap: 1rem;
+      height: fit-content;
+    }
+
     &-title {
       margin: 0 0 0.5rem 0;
       font-weight: bold;
     }
     &-paragraph {
       width: 50%;
+      @include breakpoint(768px) {
+        width: 100%;
+      }
     }
   }
 }

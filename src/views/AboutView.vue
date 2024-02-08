@@ -11,6 +11,7 @@ const props = defineProps({
 </script>
 <template>
   <div class="about">
+    <h2 class="about__title">{{ data.description.title }}</h2>
     <Description :data="data.description" />
     <Aptitudes :data="data.aptitudes" />
   </div>
@@ -21,5 +22,14 @@ const props = defineProps({
 .about {
   @include dflexCol();
   gap: 3rem;
+
+  @include breakpoint(768px) {
+    gap: 1rem;
+    height: fit-content;
+  }
+
+  &__title {
+    @include sectionTitle();
+  }
 }
 </style>

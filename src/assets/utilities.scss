@@ -5,6 +5,7 @@ $hover: var(--hover);
 $body-bg: var(--body-bg);
 $body-color: var(--body-color);
 $shadow-color: var(--shadow-color);
+$input-bg: var(--input-bg);
 
 //Mixins
 @mixin box($param-width: auto) {
@@ -16,6 +17,10 @@ $shadow-color: var(--shadow-color);
 @mixin sectionTitle() {
   font-size: 2rem;
   font-weight: 600;
+
+  @include breakpoint(768px) {
+    display: none;
+  }
 }
 
 @mixin dflexCol() {
@@ -23,13 +28,16 @@ $shadow-color: var(--shadow-color);
   flex-direction: column;
 }
 
-@mixin dflexRow() {
-  display: flex;
-}
-
 @mixin dflexWrap() {
   display: flex;
   flex-wrap: wrap;
+}
+
+//RESPONSIVE MIXIN
+@mixin breakpoint($size) {
+  @media (max-width: $size) {
+    @content;
+  }
 }
 
 //Animaciones
@@ -85,4 +93,8 @@ $shadow-color: var(--shadow-color);
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+/* CUSTOM */
+::-webkit-scrollbar {
+  display: none;
 }

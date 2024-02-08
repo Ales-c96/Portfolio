@@ -29,6 +29,12 @@ const downloadPDF = () => {
   @include dflexCol();
   justify-content: space-evenly;
   padding: 2rem;
+
+  @include breakpoint(768px) {
+    gap: 1rem;
+    border-radius: 0;
+    width: -webkit-fill-available;
+  }
   .hr-horizontal {
     width: 100%;
     border: 1px solid $primary;

@@ -1,12 +1,37 @@
 <script setup>
 import ContactForm from "../components/contactView/ContactForm.vue";
+import Description from "../components/aboutView/Description.vue";
+import useContactForm from "../composables/useContactForm";
+
+const { handleSubmit } = useContactForm();
+
+const props = defineProps({
+  data: {
+    type: Object,
+    required: true,
+  },
+});
 </script>
 
 <template>
-  <div>
-    <h2>Contactame rellenando el siguiente formulario</h2>
-    <ContactForm />
+  <div class="contact">
+    <h2 class="contact__title">{{ data.title }}</h2>
+    <Description :data="data" />
+    <ContactForm @handle-submit="handleSubmit" />
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+@import "../assets/utilities.scss";
+
+.contact {
+  @include dflexCol();
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+
+  &__title {
+    @include sectionTitle();
+  }
+}
+</style>

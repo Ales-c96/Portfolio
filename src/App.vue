@@ -28,11 +28,24 @@ import Footer from "./components/aside/Footer.vue";
   align-items: center;
   gap: 2rem;
 
+  @include breakpoint(768px) {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
   &__aside {
     width: 17rem;
     height: 100%;
     @include dflexCol();
     gap: 2rem;
+
+    @include breakpoint(768px) {
+      width: 100%;
+      height: auto;
+      align-items: center;
+      order: 1;
+    }
   }
 
   &__content {
@@ -40,6 +53,11 @@ import Footer from "./components/aside/Footer.vue";
     height: calc(100% - 4rem);
     padding: 2rem;
     @include box();
+
+    @include breakpoint(768px) {
+      width: 18rem;
+      margin-top: 16rem;
+    }
   }
 }
 </style>
