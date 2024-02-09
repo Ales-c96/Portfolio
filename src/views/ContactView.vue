@@ -1,9 +1,6 @@
 <script setup>
 import ContactForm from "../components/contactView/ContactForm.vue";
 import Description from "../components/aboutView/Description.vue";
-import useContactForm from "../composables/useContactForm";
-
-const { handleSubmit } = useContactForm();
 
 const props = defineProps({
   data: {

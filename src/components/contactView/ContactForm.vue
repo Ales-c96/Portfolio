@@ -1,10 +1,28 @@
 <script setup>
-defineEmits(['handle-submit'])
+import { ref } from "vue";
+import useContactForm from "../../composables/useContactForm";
+import PopUp from "../UI/PopUp.vue";
+
+const name = ref("");
+const email = ref("");
+const msg = ref("");
+
+const { handleSubmit, validName, validEmail, validMsg, showError } = useContactForm(
+  name,
+  email,
+  msg
+);
 </script>
 
 <template>
-  <form class="form" @submit.prevent="$emit('handle-submit')">
+  <form class="form" @submit.prevent="handleSubmit">
+    <PopUp v-if="showError">Revisa los campos del formulario</PopUp>
     <div class="form-item">
+      <div v-if="!validName" class="error">
+        <p class="error__msg">
+          El nombre no es válido. Por favor, revisa que no haya carácteres extraños
+        </p>
+      </div>
       <label for="name"></label>
       <input
         class="form-item__name form-item__input"
@@ -12,9 +30,15 @@ defineEmits(['handle-submit'])
         name="name"
         id="name"
         placeholder="Nombre"
+        v-model="name"
       />
     </div>
     <div class="form-item">
+      <div v-if="!validEmail" class="error">
+        <p class="error__msg">
+          El email no es válido. Por favor, revisa que no haya carácteres extraños
+        </p>
+      </div>
       <label for="email"></label>
       <input
         class="form-item__email form-item__input"
@@ -22,9 +46,15 @@ defineEmits(['handle-submit'])
         name="email"
         id="email"
         placeholder="Email"
+        v-model="email"
       />
     </div>
     <div class="form-item">
+      <div v-if="!validMsg" class="error">
+        <p class="error__msg">
+          El mensaje no es válido. Por favor, revisa que no haya carácteres extraños
+        </p>
+      </div>
       <label for="mesage"></label>
       <textarea
         class="form-item__mesaje form-item__input"
@@ -32,6 +62,7 @@ defineEmits(['handle-submit'])
         name="mesage"
         id="mesage"
         placeholder="Escribe aquí el mensaje"
+        v-model="msg"
       ></textarea>
     </div>
     <input class="form-item__submit" type="submit" name="submit" id="submit" value="Enviar" />
@@ -41,6 +72,7 @@ defineEmits(['handle-submit'])
 <style lang="scss" scoped>
 @import "../../assets/utilities.scss";
 .form {
+  position: relative;
   width: 100%;
   @include dflexCol();
   gap: 3rem;
@@ -80,14 +112,15 @@ defineEmits(['handle-submit'])
       }
     }
 
-    &__name {
-    }
-
-    &__email {
-    }
-
     &__mesaje {
       resize: none;
+    }
+
+    .error {
+      &__msg {
+        color: #e30000;
+        font-weight: 600;
+      }
     }
   }
 }
