@@ -7,7 +7,7 @@ const name = ref("");
 const email = ref("");
 const msg = ref("");
 
-const { handleSubmit, validName, validEmail, validMsg, showError } = useContactForm(
+const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess } = useContactForm(
   name,
   email,
   msg
@@ -16,7 +16,9 @@ const { handleSubmit, validName, validEmail, validMsg, showError } = useContactF
 
 <template>
   <form class="form" @submit.prevent="handleSubmit">
-    <PopUp v-if="showError">Revisa los campos del formulario</PopUp>
+    <transition name="slide-down">
+      <PopUp v-if="showError" :isError="true">Revisa los campos del formulario</PopUp>
+    </transition>
     <div class="form-item">
       <div v-if="!validName" class="error">
         <p class="error__msg">
@@ -66,6 +68,9 @@ const { handleSubmit, validName, validEmail, validMsg, showError } = useContactF
       ></textarea>
     </div>
     <input class="form-item__submit" type="submit" name="submit" id="submit" value="Enviar" />
+    <transition name="slide-down">
+      <PopUp v-if="showSuccess" :isError="false">Formulario enviado correctamente</PopUp>
+    </transition>
   </form>
 </template>
 

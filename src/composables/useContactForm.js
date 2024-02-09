@@ -1,11 +1,11 @@
 import { ref, computed } from "vue";
 
 export default function useContactForm(name, email, msg) {
-
   const showError = ref(false);
+  const showSuccess = ref(false);
 
   const validName = computed(() => {
-    return !name.value ? true : /^[a-zA-Z\s]*$/.test(name.value);
+    return /^[a-zA-Z\s]*$/.test(name.value);
   });
 
   const validEmail = computed(() => {
@@ -13,24 +13,20 @@ export default function useContactForm(name, email, msg) {
   });
 
   const validMsg = computed(() => {
-    return !msg.value ? true : /^[a-zA-Z0-9\s.?,"]*$/.test(msg.value);
+    return /^[a-zA-Z0-9\s.?,"]*$/.test(msg.value);
   });
 
   const validDataFields = computed(() => {
     return [validName, validEmail, validMsg].every((valid) => valid.value);
   });
 
-  const notEmptyFields = computed(() => {
-    return [name.value, email.value, msg.value].every((value) => value !== "");
+  const emptyFields = computed(() => {
+    return [name.value, email.value, msg.value].every((value) => value === "");
   });
 
   function handleSubmit() {
-    console.log(name.value);
-    console.log(email.value);
-    console.log(msg.value);
-    console.log("error= " + validDataFields.value);
 
-    if (!validDataFields && !notEmptyFields) {
+    if (emptyFields.value || !validDataFields.value) {
       showError.value = true;
       setTimeout(() => {
         showError.value = false;
@@ -40,6 +36,10 @@ export default function useContactForm(name, email, msg) {
     }
 
     //TODO: funcionalidad para enviar al backend
+    showSuccess.value = true;
+    setTimeout(() => {
+      showSuccess.value = false;
+    }, 3000);
   }
 
   return {
@@ -48,5 +48,6 @@ export default function useContactForm(name, email, msg) {
     validEmail,
     validMsg,
     showError,
+    showSuccess,
   };
 }

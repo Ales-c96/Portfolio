@@ -14,7 +14,7 @@ const props = defineProps({
   <div class="contact">
     <h2 class="contact__title">{{ data.title }}</h2>
     <Description :data="data" />
-    <ContactForm @handle-submit="handleSubmit" />
+    <ContactForm />
   </div>
 </template>
 
