@@ -15,20 +15,20 @@ const currentRoute = computed(() => {
       active-class="navbar__element--active"
       :to="{ name: 'about' }"
     >
-      <i class="fa-solid fa-address-card"></i>
+      <i class="fa-solid fa-address-card navbar-icon"></i>
       Sobre mi</RouterLink
     >
     <RouterLink
       class="navbar__element"
       active-class="navbar__element--active"
       :to="{ name: 'projects' }"
-      ><i class="fa-solid fa-code"></i>Proyectos</RouterLink
+      ><i class="fa-solid fa-code navbar-icon"></i>Proyectos</RouterLink
     >
     <RouterLink
       class="navbar__element"
       active-class="navbar__element--active"
       :to="{ name: 'contact' }"
-      ><i class="fa-regular fa-address-book"></i>Contacto</RouterLink
+      ><i class="fa-regular fa-address-book navbar-icon"></i>Contacto</RouterLink
     >
   </nav>
 </template>
@@ -50,9 +50,10 @@ const currentRoute = computed(() => {
     left: 0;
     width: 100%;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    padding: 2rem 1rem;
+    gap: .5rem;
+    padding: 1rem 0;
     background-color: $secondary;
     border-radius: 0;
     z-index: 1;
@@ -68,8 +69,10 @@ const currentRoute = computed(() => {
     padding: 0.5rem 1rem;
 
     @include breakpoint(768px) {
+      flex-direction: column;
       padding: 0.5rem;
       font-size: 0.9rem;
+      gap: .5rem;
     }
 
     &--active {
@@ -81,6 +84,12 @@ const currentRoute = computed(() => {
       @include breakpoint(768px) {
         transform: translateX(0);
       }
+    }
+  }
+
+  &-icon {
+    @include breakpoint(768px) {
+      font-size: 1.3rem;
     }
   }
 }
