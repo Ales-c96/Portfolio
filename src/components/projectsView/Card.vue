@@ -63,6 +63,11 @@ const props = defineProps({
   box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
   transition: 0.3s ease all;
 
+  @include breakpoint(768px) {
+    width: 18rem;
+    height: 13rem;
+  }
+
   &:hover {
     transform: scale(1.1);
     box-shadow: 0px 7px 20px 8px rgba(0, 0, 0, 0.554);
@@ -70,6 +75,9 @@ const props = defineProps({
       opacity: 1;
       transform: translateY(3rem);
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.554);
+      @include breakpoint(768px) {
+        transform: translateY(0);
+      }
     }
   }
 
@@ -83,27 +91,43 @@ const props = defineProps({
     padding: 1rem;
     transition: 0.3s ease all;
     opacity: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: $body-bg;
+    color: $primary;
     transform: translateY(15rem);
+
+    @include breakpoint(768px) {
+      gap: 1rem;
+      padding: 3rem;
+      background-color: #0505056a;
+    }
   }
 
   &__title {
-    font-size: 1.2rem;
     font-weight: 700;
-    color: #000;
+    color: $primary;
     text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     width: 80%;
+
+    @include breakpoint(768px) {
+      color: #fff;
+    }
   }
 
   &__tecs {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 5rem;
+
+    @include breakpoint(768px) {
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
 
     &-icon {
       width: 2rem;
@@ -114,9 +138,17 @@ const props = defineProps({
   &__links {
     display: flex;
     gap: 0.5rem;
+    @include breakpoint(768px) {
+      gap: 2rem;
+    }
     .link {
       color: #000;
       font-size: 1.3rem;
+
+      @include breakpoint(768px) {
+        font-size: 2rem;
+        color: #fff;
+      }
     }
   }
 }

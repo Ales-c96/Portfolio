@@ -21,7 +21,6 @@
   gap: 1rem;
 
   &__title {
-    font-size: 1.3rem;
     font-weight: 700;
   }
 

@@ -17,10 +17,6 @@ $input-bg: var(--input-bg);
 @mixin sectionTitle() {
   font-size: 2rem;
   font-weight: 600;
-
-  @include breakpoint(768px) {
-    display: none;
-  }
 }
 
 @mixin dflexCol() {
@@ -94,7 +90,32 @@ $input-bg: var(--input-bg);
 .fade-leave-to {
   opacity: 0;
 }
-/* CUSTOM */
+
+// *******************************************
+// ************* CUSTOM BASE *****************
+// *******************************************
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
 ::-webkit-scrollbar {
   display: none;
+
+}
+
+@include breakpoint(735px) {
+  ::-webkit-scrollbar {
+    display: block;
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $primary;
+    border-radius: .3rem;
+  }
 }

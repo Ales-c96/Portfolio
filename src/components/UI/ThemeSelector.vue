@@ -31,8 +31,10 @@ const { getTheme } = useTheme();
   cursor: pointer;
 
   @include breakpoint(768px) {
-    top: 1rem;
-    left: 17rem;
+    top: 5rem;
+    left: 1rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   &__chackbox {
@@ -42,6 +44,10 @@ const { getTheme } = useTheme();
     position: absolute;
     color: $primary;
     font-size: 1.5rem;
+
+    @include breakpoint(768px) {
+      font-size: 1rem;
+    }
   }
 }
 </style>

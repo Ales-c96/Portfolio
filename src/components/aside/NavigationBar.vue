@@ -9,7 +9,6 @@ const currentRoute = computed(() => {
 </script>
 <template>
   <nav class="navbar">
-    <div class="navbar__controls"></div>
     <ThemeSelector />
     <RouterLink
       class="navbar__element"
@@ -50,27 +49,39 @@ const currentRoute = computed(() => {
     top: 0;
     left: 0;
     width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2rem 1rem;
     background-color: $secondary;
     border-radius: 0;
     z-index: 1;
   }
+  &__element {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
 
-}
-.navbar__element {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-  font-weight: 600;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  padding: 0.5rem 1rem;
+    @include breakpoint(768px) {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
 
-  &--active {
-    color: $secondary;
-    border-radius: 0.5rem;
-    background-color: $primary;
-    transform: translateX(2rem);
+    &--active {
+      color: $secondary;
+      border-radius: 0.5rem;
+      background-color: $primary;
+      transform: translateX(2rem);
+
+      @include breakpoint(768px) {
+        transform: translateX(0);
+      }
+    }
   }
 }
 </style>

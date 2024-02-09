@@ -25,7 +25,6 @@ const props = defineProps({
   gap: 1rem;
 
   &__title {
-    font-size: 1.5rem;
     font-weight: 500;
   }
 

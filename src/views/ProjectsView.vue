@@ -40,10 +40,14 @@ const handleScrollArrow = (event) => {
 
   @include breakpoint(768px) {
     flex-direction: row;
+    overflow: scroll;
   }
 
   &__title {
     @include sectionTitle();
+    @include breakpoint(768px) {
+      display: none;
+    }
   }
   &__grid {
     @include dflexWrap();
@@ -52,6 +56,7 @@ const handleScrollArrow = (event) => {
 
     @include breakpoint(768px) {
       flex-wrap: nowrap;
+      align-items: center;
     }
   }
   .arrow {

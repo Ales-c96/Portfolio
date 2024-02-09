@@ -31,7 +31,7 @@ import Footer from "./components/aside/Footer.vue";
   @include breakpoint(768px) {
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   &__aside {
@@ -56,7 +56,7 @@ import Footer from "./components/aside/Footer.vue";
 
     @include breakpoint(768px) {
       width: 18rem;
-      margin-top: 16rem;
+      margin-top: 8rem;
     }
   }
 }
