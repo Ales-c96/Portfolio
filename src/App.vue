@@ -21,7 +21,7 @@ import Footer from "./components/aside/Footer.vue";
 <style lang="scss" scoped>
 @import "./assets/utilities.scss";
 .main {
-  width: 100%;
+  width: 70rem;
   height: 40rem;
   display: flex;
   justify-content: center;
