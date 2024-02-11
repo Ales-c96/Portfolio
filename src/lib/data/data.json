@@ -32,79 +32,79 @@
             {
                 "id": "1",
                 "title": "Buscador de clima",
-                "thumb": "assets/img/wheaderapp.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/wheaderapp-UeKuVVa31vNaUZdiMEAQF9H2KgNtoh.webp",
                 "thumbAlt": "imagen del proyecto buscador de climas",
                 "url": "https://weather-app-mu-murex.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "assets/svg/vue.svg",
-                    "assets/svg/html.svg",
-                    "assets/svg/css.svg"
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
                 ]
             },
             {
                 "id": "2",
                 "title": "Recetas de bebidas y cocteles",
-                "thumb": "assets/img/coctailrecipes.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/coctailrecipes-gmGgrgJXn0DcjhHcPW42F2cTI2L2HJ.webp",
                 "thumbAlt": "imagen del proyecto de buscador de bebidas",
                 "url": "https://coctail-recipes.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "assets/svg/vue.svg",
-                    "assets/svg/html.svg",
-                    "assets/svg/tailwind.svg"
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg"
                 ]
             },
             {
                 "id": "3",
                 "title": "Cotizador de criptomonedas",
-                "thumb": "assets/img/criptoquoter.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/criptoquoter-qSrnOmLDqtyk2ZVFFivxZjQwDxT0hq.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-cripto-quoter.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "assets/svg/vue.svg",
-                    "assets/svg/html.svg",
-                    "assets/svg/css.svg"
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
                 ]
             },
             {
                 "id": "4",
                 "title": "Administrador de clientes clinica veterinaria",
-                "thumb": "assets/img/vetCrm.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/vetCrm-fW3EMqTnpJd3VmtUe3a8vvl1xbdoo9.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-vet-crm.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "assets/svg/vue.svg",
-                    "assets/svg/html.svg",
-                    "assets/svg/tailwind.svg"
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg"
                 ]
             },
             {
                 "id": "5",
                 "title": "Administrador de Presupuesto",
-                "thumb": "assets/img/budgetmanager.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/budgetmanager-OUxVccUFvL7WQftgd7x8RxukB7ATkz.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://budget-manager-psi.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "assets/svg/vue.svg",
-                    "assets/svg/html.svg",
-                    "assets/svg/sass.svg"
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg"
                 ]
             },
             {
                 "id": "6",
                 "title": "Tienda con carrito",
-                "thumb": "assets/img/shop.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/shop-t4BplXTOnIOK8iP57pFIqjpd9qtJBg.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://template-shop-with-cart.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "assets/svg/vue.svg",
-                    "assets/svg/html.svg",
-                    "assets/svg/css.svg"
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
                 ]
             }
         ]

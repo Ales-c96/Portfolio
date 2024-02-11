@@ -30,6 +30,10 @@ const props = defineProps({
   padding: 1rem 2rem;
   background-color: $body-bg;
 
+  @include breakpoint(768px) {
+    top: 20rem;
+  }
+
   &__error {
     color: #e30000;
   }
