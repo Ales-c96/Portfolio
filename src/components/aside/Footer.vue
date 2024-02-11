@@ -6,7 +6,7 @@ import cvPdrf from '@assets/pdf/CV.pdf';
 
 const downloadPDF = () => {
   const link = document.createElement("a");
-  link.href = `${window.location.origin}/${cvPdrf}`;
+  link.href = `${window.location.origin}${cvPdrf}`;
   link.download = "AlejandroCordero_CV.pdf";
   link.click();
 };

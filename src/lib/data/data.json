@@ -32,79 +32,79 @@
             {
                 "id": "1",
                 "title": "Buscador de clima",
-                "thumb": "src/assets/img/wheaderapp.webp",
+                "thumb": "assets/img/wheaderapp.webp",
                 "thumbAlt": "imagen del proyecto buscador de climas",
                 "url": "https://weather-app-mu-murex.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "src/assets/svg/vue.svg",
-                    "src/assets/svg/html.svg",
-                    "src/assets/svg/css.svg"
+                    "assets/svg/vue.svg",
+                    "assets/svg/html.svg",
+                    "assets/svg/css.svg"
                 ]
             },
             {
                 "id": "2",
                 "title": "Recetas de bebidas y cocteles",
-                "thumb": "src/assets/img/coctailrecipes.webp",
+                "thumb": "assets/img/coctailrecipes.webp",
                 "thumbAlt": "imagen del proyecto de buscador de bebidas",
                 "url": "https://coctail-recipes.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "src/assets/svg/vue.svg",
-                    "src/assets/svg/html.svg",
-                    "src/assets/svg/tailwind.svg"
+                    "assets/svg/vue.svg",
+                    "assets/svg/html.svg",
+                    "assets/svg/tailwind.svg"
                 ]
             },
             {
                 "id": "3",
                 "title": "Cotizador de criptomonedas",
-                "thumb": "src/assets/img/criptoquoter.webp",
+                "thumb": "assets/img/criptoquoter.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-cripto-quoter.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "src/assets/svg/vue.svg",
-                    "src/assets/svg/html.svg",
-                    "src/assets/svg/css.svg"
+                    "assets/svg/vue.svg",
+                    "assets/svg/html.svg",
+                    "assets/svg/css.svg"
                 ]
             },
             {
                 "id": "4",
                 "title": "Administrador de clientes clinica veterinaria",
-                "thumb": "src/assets/img/vetCrm.webp",
+                "thumb": "assets/img/vetCrm.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-vet-crm.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "src/assets/svg/vue.svg",
-                    "src/assets/svg/html.svg",
-                    "src/assets/svg/tailwind.svg"
+                    "assets/svg/vue.svg",
+                    "assets/svg/html.svg",
+                    "assets/svg/tailwind.svg"
                 ]
             },
             {
                 "id": "5",
                 "title": "Administrador de Presupuesto",
-                "thumb": "src/assets/img/budgetmanager.webp",
+                "thumb": "assets/img/budgetmanager.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://budget-manager-psi.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "src/assets/svg/vue.svg",
-                    "src/assets/svg/html.svg",
-                    "src/assets/svg/sass.svg"
+                    "assets/svg/vue.svg",
+                    "assets/svg/html.svg",
+                    "assets/svg/sass.svg"
                 ]
             },
             {
                 "id": "6",
                 "title": "Tienda con carrito",
-                "thumb": "src/assets/img/shop.webp",
+                "thumb": "assets/img/shop.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://template-shop-with-cart.vercel.app/",
                 "githubUrl": "",
                 "tec": [
-                    "src/assets/svg/vue.svg",
-                    "src/assets/svg/html.svg",
-                    "src/assets/svg/css.svg"
+                    "assets/svg/vue.svg",
+                    "assets/svg/html.svg",
+                    "assets/svg/css.svg"
                 ]
             }
         ]

@@ -5,10 +5,12 @@ const props = defineProps({
     required: true,
   },
 });
+
+const path  = window.location.origin;
 </script>
 
 <template>
-  <article class="card" :style="`background-image: url(${data.thumb})`">
+  <article class="card" :style="`background-image: url(${path + data.thumb})`">
     <div class="card__item">
       <h2 class="card__title">{{ data.title }}</h2>
       <div class="card__tecs">
