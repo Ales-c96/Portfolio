@@ -2,10 +2,11 @@
 import ContactInfo from "../UI/ContactInfo.vue";
 import CustomButton from "../UI/CustomButton.vue";
 import SocialMedia from "../UI/SocialMedia.vue";
+import cvPdrf from '@assets/pdf/CV.pdf';
 
 const downloadPDF = () => {
   const link = document.createElement("a");
-  link.href = `${window.location.href}/src/assets/pdf/cv.pdf`;
+  link.href = `${window.location.origin}/${cvPdrf}`;
   link.download = "AlejandroCordero_CV.pdf";
   link.click();
 };
