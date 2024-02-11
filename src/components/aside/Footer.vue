@@ -10,6 +10,7 @@ const downloadPDF = () => {
   link.download = "AlejandroCordero_CV.pdf";
   link.click();
 };
+console.log(`${window.location.origin}${cvPdrf}`)
 </script>
 <template>
   <footer class="footer">
