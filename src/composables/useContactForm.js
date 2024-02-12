@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 export default function useContactForm(name, email, msg) {
   const showError = ref(false);
   const showSuccess = ref(false);
+  const loading = ref(false);
 
   const validName = computed(() => {
     return /^[a-zA-Z\s]*$/.test(name.value);
@@ -52,11 +53,13 @@ export default function useContactForm(name, email, msg) {
 
     fetch(url, requestOptions)
       .then((response) => {
+        loading.value = true;
         if (!response.ok) {
           throw new Error("Error en la solicitud");
         }
       })
       .then(() => {
+        loading.value = false;
         showSuccess.value = true;
         setTimeout(() => {
           showSuccess.value = false;
@@ -74,5 +77,6 @@ export default function useContactForm(name, email, msg) {
     validMsg,
     showError,
     showSuccess,
+    loading
   };
 }

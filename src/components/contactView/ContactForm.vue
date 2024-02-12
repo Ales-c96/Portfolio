@@ -2,12 +2,13 @@
 import { ref } from "vue";
 import useContactForm from "../../composables/useContactForm";
 import PopUp from "../UI/PopUp.vue";
+import Spinner from "../UI/Spinner.vue";
 
 const name = ref("");
 const email = ref("");
 const msg = ref("");
 
-const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess } = useContactForm(
+const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, loading } = useContactForm(
   name,
   email,
   msg
@@ -19,6 +20,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess } 
     <transition name="slide-down">
       <PopUp v-if="showError" :isError="true">Revisa los campos del formulario</PopUp>
     </transition>
+    <Spinner v-if="loading" />
     <div class="form-item">
       <div v-if="!validName" class="error">
         <p class="error__msg">
