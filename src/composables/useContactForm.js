@@ -25,7 +25,6 @@ export default function useContactForm(name, email, msg) {
   });
 
   function handleSubmit() {
-
     if (emptyFields.value || !validDataFields.value) {
       showError.value = true;
       setTimeout(() => {
@@ -35,11 +34,36 @@ export default function useContactForm(name, email, msg) {
       return;
     }
 
-    //TODO: funcionalidad para enviar al backend
-    showSuccess.value = true;
-    setTimeout(() => {
-      showSuccess.value = false;
-    }, 3000);
+    const postData = {
+      username: name.value,
+      email: email.value,
+      mensaje: msg.value,
+    };
+    const url = "https://meloinvento.asd/asd/asd";
+    const requestOptions = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(postData),
+    };
+
+    fetch(url, requestOptions)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Error en la solicitud");
+        }
+        return response.json();
+      })
+      .then(() => {
+        showSuccess.value = true;
+        setTimeout(() => {
+          showSuccess.value = false;
+        }, 3000);
+      })
+      .catch((error) => {
+        console.error("Error al enviar la solicitud:", error);
+      });
   }
 
   return {

@@ -23,8 +23,6 @@ const props = defineProps({
 
 .contact {
   @include dflexCol();
-  justify-content: flex-start;
-  align-items: center;
   gap: 3rem;
 
   &__title {

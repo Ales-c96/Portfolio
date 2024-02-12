@@ -78,7 +78,6 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess } 
 @import "../../assets/utilities.scss";
 .form {
   position: relative;
-  width: 100%;
   @include dflexCol();
   gap: 3rem;
 
