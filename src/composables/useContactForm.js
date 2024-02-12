@@ -39,7 +39,7 @@ export default function useContactForm(name, email, msg) {
       email: email.value,
       mensaje: msg.value,
     };
-    const url = "https://meloinvento.asd/asd/asd";
+    const url = '../../mailer/index.php';
     const requestOptions = {
       method: "POST",
       headers: {

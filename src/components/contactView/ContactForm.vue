@@ -57,12 +57,12 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess } 
           El mensaje no es válido. Por favor, revisa que no haya carácteres extraños
         </p>
       </div>
-      <label for="mesage"></label>
+      <label for="message"></label>
       <textarea
         class="form-item__mesaje form-item__input"
         type="text"
-        name="mesage"
-        id="mesage"
+        name="message"
+        id="message"
         placeholder="Escribe aquí el mensaje"
         v-model="msg"
       ></textarea>
