@@ -40,7 +40,7 @@ export default function useContactForm(name, email, msg) {
       message: msg.value,
     };
 
-    const url = "https://alexdev-bck.vercel.app/";
+    const url = "https://alexdev-bck.vercel.app/index.php";
     const requestOptions = {
       method: "POST",
       mode: "cors",
@@ -52,9 +52,6 @@ export default function useContactForm(name, email, msg) {
 
     fetch(url, requestOptions)
       .then((response) => {
-        console.log(response)
-        console.log(url)
-        console.log(requestOptions)
         if (!response.ok) {
           throw new Error("Error en la solicitud");
         }
