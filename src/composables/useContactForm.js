@@ -43,7 +43,7 @@ export default function useContactForm(name, email, msg) {
     const url = "https://alexdev-bck.vercel.app/";
     const requestOptions = {
       method: "POST",
-      mode: "no-cors",
+      mode: "cors",
       headers: {
         "Content-Type": "application/json",
       },
