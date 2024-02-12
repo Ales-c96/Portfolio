@@ -53,6 +53,8 @@ export default function useContactForm(name, email, msg) {
     fetch(url, requestOptions)
       .then((response) => {
         console.log(response)
+        console.log(url)
+        console.log(requestOptions)
         if (!response.ok) {
           throw new Error("Error en la solicitud");
         }
