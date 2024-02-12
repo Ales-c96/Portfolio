@@ -58,7 +58,6 @@ export default function useContactForm(name, email, msg) {
         if (!response.ok) {
           throw new Error("Error en la solicitud");
         }
-        return response.json();
       })
       .then(() => {
         showSuccess.value = true;
