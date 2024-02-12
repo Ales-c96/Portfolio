@@ -40,7 +40,7 @@ export default function useContactForm(name, email, msg) {
       message: msg.value,
     };
 
-    const url = "https://portfolio-bck-production.up.railway.app/";
+    const url = "https://portfolio-bck-production.up.railway.app/index.php";
     const requestOptions = {
       method: "POST",
       mode: "cors",
