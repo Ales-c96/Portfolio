@@ -35,11 +35,11 @@ export default function useContactForm(name, email, msg) {
     }
 
     const postData = {
-      username: name.value,
+      name: name.value,
       email: email.value,
-      mensaje: msg.value,
+      message: msg.value,
     };
-    const url = '../../mailer/index.php';
+    const url = 'https://alexdev-bck.vercel.app/index.php';
     const requestOptions = {
       method: "POST",
       headers: {
