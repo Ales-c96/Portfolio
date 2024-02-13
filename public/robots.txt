@@ -1,0 +1,8 @@
+User-agent: *
+
+User-agent: Googlebot
+Allow: /$                   
+Allow: /projects/$          
+Allow: /contact/$           
+
+Sitemap: https://alexdev-liart.vercel.app/sitemap   # Proporciona la ubicación del archivo de sitemap
