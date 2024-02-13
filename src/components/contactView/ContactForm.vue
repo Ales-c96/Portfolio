@@ -120,6 +120,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
 
     &__mesaje {
       resize: none;
+      color: $secondary-bg;
     }
 
     .error {
