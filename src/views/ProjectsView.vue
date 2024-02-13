@@ -11,7 +11,7 @@ const props = defineProps({
 const hideArrow = ref(false);
 
 const handleScrollArrow = (event) => {
-  hideArrow.value = event.target.scrollTop > 0 ? true : false;
+  hideArrow.value = event.target.scrollTop > 0 || event.target.scrollLeft > 0 ? true : false;
 };
 </script>
 <template>
@@ -71,13 +71,17 @@ const handleScrollArrow = (event) => {
       opacity: 1;
       transition: 0.5s ease all;
 
+      @include breakpoint(735px) {
+        transform: rotate(270deg);
+      }
+
       &--hide {
         opacity: 0;
       }
     }
 
     @include breakpoint(768px) {
-      display: none;
+      animation: bounce-right 1.5s infinite;
     }
   }
 }
