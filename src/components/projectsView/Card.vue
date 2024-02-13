@@ -98,6 +98,8 @@ const path  = window.location.origin;
     transform: translateY(15rem);
 
     @include breakpoint(768px) {
+      opacity: 1;
+      transform: translateY(0rem);
       gap: 1rem;
       padding: 3rem;
       background-color: #0505056a;
