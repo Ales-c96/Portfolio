@@ -26,7 +26,6 @@ export default function useContactForm(name, email, msg) {
   });
 
   function handleSubmit() {
-    loading.value = true;
     if (emptyFields.value || !validDataFields.value) {
       showError.value = true;
       setTimeout(() => {
@@ -35,7 +34,7 @@ export default function useContactForm(name, email, msg) {
 
       return;
     }
-
+    loading.value = true;
     const postData = {
       name: name.value,
       email: email.value,

@@ -93,7 +93,7 @@ const path  = window.location.origin;
     padding: 1rem;
     transition: 0.3s ease all;
     opacity: 0;
-    background-color: $body-bg;
+    background-color: $secondary;
     color: $primary;
     transform: translateY(15rem);
 

@@ -2,8 +2,9 @@
     --primary: #000;
     --secondary: #ffffff;
     --hover: #5a5a5a;
+    --primary-bg: #fff;
+    --primary-color: #000;
     --body-bg: #fff;
-    --body-color: #000;
     --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
     --input-bg: #d1d1d1;
 }
@@ -12,8 +13,9 @@
     --primary: #f0f0f0;
     --secondary: #303030;
     --hover: #d6d6d6;
+    --primary-bg: #303030;
+    --primary-color: #f0f0f0;
     --body-bg: #303030;
-    --body-color: #f0f0f0;
     --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
     --input-bg: #d1d1d1;
 }
@@ -21,7 +23,7 @@
 body {
     transition: .5s ease all;
     background-color: var(--body-bg);
-    color: var(--body-color);
+    color: var(--primary-color);
 }
 
 #app {
