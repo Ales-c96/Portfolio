@@ -43,6 +43,8 @@ const currentRoute = computed(() => {
   align-items: flex-start;
   gap: 1rem;
   padding: 2rem;
+  background-color: $secondary-bg;
+  color: $secondary;
 
   @include breakpoint(768px) {
     position: fixed;
@@ -54,7 +56,7 @@ const currentRoute = computed(() => {
     align-items: center;
     gap: .5rem;
     padding: 1rem 0;
-    background-color: $secondary;
+    background-color: $secondary-bg;
     border-radius: 0;
     z-index: 1;
   }
@@ -76,9 +78,9 @@ const currentRoute = computed(() => {
     }
 
     &--active {
-      color: $secondary;
+      color: $primary;
       border-radius: 0.5rem;
-      background-color: $primary;
+      background-color: $body-bg;
       transform: translateX(2rem);
 
       @include breakpoint(768px) {

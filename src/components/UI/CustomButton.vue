@@ -9,17 +9,17 @@ const emit = defineEmits(["click-event"]);
 @import "../../assets/utilities.scss";
 .button {
   padding: 0.5rem 1rem;
-  background-color: $primary;
-  border: 0.2rem solid $primary;
+  background-color: $body-bg;
+  border: 0.2rem solid $body-bg;
   border-radius: 0.5rem;
   transition: 0.3s ease all;
-  color: $secondary;
+  color: $primary;
   font-weight: 900;
   cursor: pointer;
 
   &:hover {
     background-color: transparent;
-    color: $primary;
+    color: $secondary;
   }
 }
 </style>

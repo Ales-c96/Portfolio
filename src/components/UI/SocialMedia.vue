@@ -41,7 +41,7 @@
 
   &__icon {
     font-size: 2em;
-    color: $primary;
+    color: $body-bg;
     transition: 0.3s ease all;
     &:hover {
       color: $hover;

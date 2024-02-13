@@ -1,21 +1,23 @@
 :root {
     --primary: #000;
     --secondary: #ffffff;
-    --hover: #5a5a5a;
+    --hover: #ffbd5985;
     --primary-bg: #fff;
+    --secondary-bg: #191919;
     --primary-color: #000;
-    --body-bg: #fff;
+    --body-bg: #FFBD59;
     --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
-    --input-bg: #d1d1d1;
+    --input-bg: #dbdbdb;
 }
 
 [data-theme='dark'] {
     --primary: #f0f0f0;
-    --secondary: #303030;
-    --hover: #d6d6d6;
-    --primary-bg: #303030;
+    --secondary: #ffffff;
+    --hover: #ffbd5985;
+    --primary-bg: #191919;
+    --secondary-bg: #191919;
     --primary-color: #f0f0f0;
-    --body-bg: #303030;
+    --body-bg: #a77b39;
     --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
     --input-bg: #d1d1d1;
 }

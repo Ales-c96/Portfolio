@@ -88,7 +88,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
 
     &__input {
       border: none;
-      border-bottom: 2px solid $primary;
+      border-bottom: 2px solid $body-bg;
       padding: 1rem;
 
       &::placeholder {
@@ -104,8 +104,8 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
 
     &__submit {
       padding: 0.5rem 1rem;
-      background-color: $primary;
-      border: 0.2rem solid $primary;
+      background-color: $body-bg;
+      border: 0.2rem solid $body-bg;
       border-radius: 0.5rem;
       transition: 0.3s ease all;
       color: $secondary;

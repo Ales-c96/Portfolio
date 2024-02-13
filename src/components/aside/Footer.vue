@@ -30,6 +30,8 @@ const downloadPDF = () => {
   @include dflexCol();
   justify-content: space-evenly;
   padding: 2rem;
+  background-color: $secondary-bg;
+  color: $secondary;
 
   @include breakpoint(768px) {
     gap: 1rem;
@@ -38,7 +40,7 @@ const downloadPDF = () => {
   }
   .hr-horizontal {
     width: 100%;
-    border: 1px solid $primary;
+    border: 1px solid $secondary;
     margin: 0.5rem 0;
   }
 }

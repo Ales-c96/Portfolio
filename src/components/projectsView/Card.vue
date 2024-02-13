@@ -6,7 +6,6 @@ const props = defineProps({
   },
 });
 
-const path  = window.location.origin;
 </script>
 
 <template>
