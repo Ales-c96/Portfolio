@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AboutView from "../views/AboutView.vue";
 import Data from "../lib/data/data.json";
+import NotFoundView from "../views/NotFoundView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +23,10 @@ const router = createRouter({
       name: "contact",
       component: () => import("../views/ContactView.vue"),
       props: { data: Data.contact },
+    },
+    {
+      path: "/:catchAll(.*)", // Ruta comodín para capturar cualquier URL no encontrada
+      component: NotFoundView,
     },
   ],
 });
