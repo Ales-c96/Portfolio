@@ -6,12 +6,13 @@
 </template>
 
 <style lang="scss" scoped>
+@import "../../assets/utilities.scss";
 .spinner {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
-  left: calc(50% - 1.5rem);
-  margin: 100px auto;
+  top: 5rem;
+  left: calc(50% - 2.5rem);
 }
 
 .double-bounce1,
@@ -19,7 +20,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #333;
+  background-color: $primary;
   opacity: 0.6;
   position: absolute;
   top: 0;

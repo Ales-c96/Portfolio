@@ -26,6 +26,7 @@ export default function useContactForm(name, email, msg) {
   });
 
   function handleSubmit() {
+    loading.value = true;
     if (emptyFields.value || !validDataFields.value) {
       showError.value = true;
       setTimeout(() => {
@@ -53,7 +54,7 @@ export default function useContactForm(name, email, msg) {
 
     fetch(url, requestOptions)
       .then((response) => {
-        loading.value = true;
+        loading.value = false;
         if (!response.ok) {
           throw new Error("Error en la solicitud");
         }
@@ -66,6 +67,7 @@ export default function useContactForm(name, email, msg) {
         }, 3000);
       })
       .catch((error) => {
+        loading.value = false;
         console.error("Error al enviar la solicitud:", error);
       });
   }
@@ -77,6 +79,6 @@ export default function useContactForm(name, email, msg) {
     validMsg,
     showError,
     showSuccess,
-    loading
+    loading,
   };
 }
