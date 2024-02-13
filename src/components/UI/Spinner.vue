@@ -8,11 +8,15 @@
 <style lang="scss" scoped>
 @import "../../assets/utilities.scss";
 .spinner {
-  width: 4rem;
-  height: 4rem;
+  width: 15rem;
+  height: 15rem;
   position: absolute;
-  top: 5rem;
-  left: calc(50% - 2.5rem);
+  top: 0rem;
+  left: calc(50% - 8.5rem);
+  @include breakpoint(735px) {
+    top: -5rem;
+    left: calc(50% - 7.3rem);
+  }
 }
 
 .double-bounce1,

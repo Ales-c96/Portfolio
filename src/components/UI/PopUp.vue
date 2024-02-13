@@ -31,7 +31,7 @@ const props = defineProps({
   background-color: $primary-bg;
 
   @include breakpoint(768px) {
-    top: 20rem;
+    top: 5rem;
   }
 
   &__error {
