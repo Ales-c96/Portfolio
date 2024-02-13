@@ -24,7 +24,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
     <div class="form-item">
       <div v-if="!validName" class="error">
         <p class="error__msg">
-          El nombre no es válido. Por favor, revisa que no haya carácteres extraños
+          Nombre no válido. Rrevisa que no haya carácteres extraños.
         </p>
       </div>
       <label for="name"></label>
@@ -40,7 +40,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
     <div class="form-item">
       <div v-if="!validEmail" class="error">
         <p class="error__msg">
-          El email no es válido. Por favor, revisa que no haya carácteres extraños
+          Email válido.
         </p>
       </div>
       <label for="email"></label>
@@ -56,7 +56,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
     <div class="form-item">
       <div v-if="!validMsg" class="error">
         <p class="error__msg">
-          El mensaje no es válido. Por favor, revisa que no haya carácteres extraños
+          El mensaje no es válido. Revisa que no haya carácteres extraños.
         </p>
       </div>
       <label for="message"></label>
