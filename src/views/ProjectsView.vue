@@ -39,6 +39,7 @@ const handleScrollArrow = (event) => {
 
   @include breakpoint(768px) {
     flex-direction: row;
+    height: 30%;
   }
 
   &__title {
@@ -53,7 +54,7 @@ const handleScrollArrow = (event) => {
     gap: 2rem;
 
     @include breakpoint(768px) {
-      flex-wrap: nowrap;
+      // flex-wrap: nowrap;
       align-items: center;
     }
   }
@@ -79,8 +80,9 @@ const handleScrollArrow = (event) => {
     }
 
     @include breakpoint(768px) {
-      animation: bounce-right 1.5s infinite;
-      bottom: 0rem;
+      display: none;
+      // animation: bounce-right 1.5s infinite;
+      // bottom: 0rem;
     }
   }
 }
