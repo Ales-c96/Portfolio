@@ -92,7 +92,7 @@ const props = defineProps({
     padding: 1rem;
     transition: 0.3s ease all;
     opacity: 0;
-    background-color: $secondary;
+    background-color: $primary-bg;
     color: $primary;
     transform: translateY(15rem);
 
@@ -146,7 +146,7 @@ const props = defineProps({
       gap: 2rem;
     }
     .link {
-      color: #000;
+      color: $primary;
       font-size: 1.3rem;
 
       @include breakpoint(768px) {
