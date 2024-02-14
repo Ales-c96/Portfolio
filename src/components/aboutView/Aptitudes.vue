@@ -11,7 +11,7 @@ const props = defineProps({
     <h2 class="container__title">{{ data.title }}</h2>
     <div class="container__aptitudes">
       <div v-for="aptitud in data.aptitudes">
-        <img :src="aptitud" alt="icono de tecnología">
+        <img class="container__aptitudes-tec" :src="aptitud" alt="icono de tecnología">
       </div>
     </div>
   </div>
@@ -41,9 +41,8 @@ const props = defineProps({
       height: fit-content;
     }
 
-    &-title {
-      margin: 0 0 0.5rem 0;
-      font-weight: bold;
+    &-tec {
+      width: 3rem;
     }
   }
 }
