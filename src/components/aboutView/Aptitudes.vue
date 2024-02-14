@@ -26,6 +26,8 @@ const props = defineProps({
   align-items: center;
 
   &__title {
+    width: 100%;
+    text-align: center;
     font-weight: 600;
   }
 
