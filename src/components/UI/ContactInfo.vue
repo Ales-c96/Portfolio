@@ -1,8 +1,7 @@
 <script setup></script>
 <template>
   <div class="contact">
-    <h3 class="contact__title">Email</h3>
-
+    <h3 class="contact__title">Email <i class="fa-solid fa-envelope"></i></h3>
     <div class="contact__mailto">
       <a
         href="mailto:alejandro.c9.d6@gmail.com"
