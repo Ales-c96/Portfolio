@@ -23,14 +23,14 @@
         },
         "experience": [
             {
-                "company": "Alebat",
-                "position": "Frontend Developer",
-                "time": "Febrero de 2021 - Marzo de 2023"
-            },
-            {
                 "company": "Madison",
                 "position": "Fullstak Developer",
                 "time": "Mayo de 2023 - Actualidad"
+            },
+            {
+                "company": "Alebat",
+                "position": "Frontend Developer",
+                "time": "Febrero de 2021 - Marzo de 2023"
             }
         ]
     },
