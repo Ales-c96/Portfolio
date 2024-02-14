@@ -37,6 +37,6 @@ const props = defineProps({
   font-weight: 700;
 }
 .hr-horizontal {
-  @include separator($primary);
+  @include separator($body-bg);
 }
 </style>
