@@ -28,6 +28,7 @@ const props = defineProps({
 
   @include breakpoint(768px) {
     height: fit-content;
+    overflow: hidden;
   }
 
   &__title {

@@ -31,6 +31,7 @@ const props = defineProps({
 
   &__aptitudes {
     @include dflexWrap();
+    justify-content: center;
     gap: 1rem;
     width: 55%;
     border-radius: 1rem;
