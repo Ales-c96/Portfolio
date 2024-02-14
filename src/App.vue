@@ -50,6 +50,7 @@ import Footer from "./components/aside/Footer.vue";
 
   &__content {
     position: relative;
+    width: 100%;
     height: calc(100% - 4rem);
     padding: 2rem;
     @include box();

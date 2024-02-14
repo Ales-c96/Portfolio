@@ -2,7 +2,7 @@
 import ContactInfo from "../UI/ContactInfo.vue";
 import CustomButton from "../UI/CustomButton.vue";
 import SocialMedia from "../UI/SocialMedia.vue";
-import cvPdrf from '@assets/pdf/CV.pdf';
+import cvPdrf from "@assets/pdf/CV.pdf";
 
 const downloadPDF = () => {
   const link = document.createElement("a");
@@ -17,7 +17,9 @@ const downloadPDF = () => {
     <hr class="hr-horizontal" />
     <ContactInfo />
     <hr class="hr-horizontal" />
-    <CustomButton @click-event="downloadPDF">Descargar CV</CustomButton>
+    <CustomButton @click-event="downloadPDF"
+      >Descargar CV <i class="fa-solid fa-download"></i
+    ></CustomButton>
   </footer>
 </template>
 
@@ -39,9 +41,7 @@ const downloadPDF = () => {
     width: -webkit-fill-available;
   }
   .hr-horizontal {
-    width: 100%;
-    border: 1px solid $secondary;
-    margin: 0.5rem 0;
+    @include separator($secondary);
   }
 }
 </style>

@@ -1,6 +1,7 @@
 <script setup>
 import Description from "../components/aboutView/Description.vue";
 import Aptitudes from "../components/aboutView/Aptitudes.vue";
+import Experience from "../components/aboutView/Experience.vue";
 
 const props = defineProps({
   data: {
@@ -14,6 +15,7 @@ const props = defineProps({
     <h2 class="about__title">{{ data.description.title }}</h2>
     <Description :data="data.description" />
     <Aptitudes :data="data.aptitudes" />
+    <Experience :data="data.experience"/>
   </div>
 </template>
 
@@ -21,10 +23,10 @@ const props = defineProps({
 @import "../assets/utilities.scss";
 .about {
   @include dflexCol();
-  gap: 3rem;
+  gap: 2rem;
+  overflow: scroll;
 
   @include breakpoint(768px) {
-    gap: 1rem;
     height: fit-content;
   }
 

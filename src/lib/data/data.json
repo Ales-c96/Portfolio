@@ -2,29 +2,36 @@
     "about": {
         "description": {
             "title": "Hola, soy Alex",
-            "description": "Me sumergí en el mundo del desarrollo web después de explorar el terreno del marketing. con este trasfondo, entendi las bases de la venta y la captación de la atención, pero lo que realmente me gusta es mezclar esta parte con la creatividad. Me gusta convertir mis ideas y gustos en experiencia palpable en la interfaz del usuario. Siempre estoy listo para desafíos que me hagan seguir avanzando en el mundo del diseño, el desarrollo y crecer a nivel personal y profesional"
+            "description": "Me sumergí en el mundo del desarrollo web después de explorar el terreno del marketing. Con este trasfondo, entendí algunas de las bases de la venta y la captación de la atención del cliente, esto me ayudo a perfeccionar la UX y la UI de algunos desarrollos, pero lo que realmente me gusta es la creatividad y plasmar las ideas en experiencia palpable en la UI. Siempre estoy listo para desafíos que me hagan seguir avanzando en el mundo del diseño, el desarrollo y crecer a nivel personal y profesional"
         },
         "aptitudes": {
-            "title": "Conocimientos",
+            "title": "Habilidades",
             "aptitudes": [
-                {
-                    "title": "Lenguajes",
-                    "list": "JavaScript, PHP, HTML, CSS"
-                },
-                {
-                    "title": "Frameworks y Bibliotecas",
-                    "list": "VueJS, JQuery, Axios, SASS, Bootstrap, Tailwind"
-                },
-                {
-                    "title": "Bases de datos",
-                    "list": "MySql"
-                },
-                {
-                    "title": "Herramientas",
-                    "list": "VSCode, Lighthouse, Git, npm"
-                }
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-oreja-S7vlknTAElsYJGxN2GDYoeBL0xLoGy.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-wordpress-n8bSO9P21lcrzSqWFBp1xm165Aoxvr.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-php%20(1)-KOJDQiufsZveAEwqusaQnkeBe8zzi0.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/javascript-6wjXFLLAA18MUPQ9G10skiEsBeDz2J.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-mysql%20(1)-P51ZaYQvShD2BUcG54hv0M5VsbhQLD.svg",
+                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-git-VSpRU2tRQIZQplLOcpniMtwDi6AdUL.svg"
             ]
-        }
+        },
+        "experience": [
+            {
+                "company": "Alebat",
+                "position": "Frontend Developer",
+                "time": "febrero 2021 - marzo 2023"
+            },
+            {
+                "company": "Madison",
+                "position": "Fullstak Developer",
+                "time": "Mayo 2023 - Actualidad"
+            }
+        ]
     },
     "projects": {
         "title": "Mis proyectos y sus tecnologías",
@@ -98,6 +105,6 @@
     },
     "contact": {
         "title": "¿Nos ponemos en contacto?",
-        "description": "Si estas interesado en colaborar conmigo rellena el formulario y me pondré en contacto contigo"
+        "description": "Puedes rellenar el siguiente formulario y me pondre en contacto contigo."
     }
 }

@@ -35,12 +35,10 @@ const handleScrollArrow = (event) => {
   position: relative;
   @include dflexCol();
   gap: 2rem;
-  max-height: -webkit-fill-available;
   overflow: overlay;
 
   @include breakpoint(768px) {
     flex-direction: row;
-    overflow: scroll;
   }
 
   &__title {
@@ -82,7 +80,11 @@ const handleScrollArrow = (event) => {
 
     @include breakpoint(768px) {
       animation: bounce-right 1.5s infinite;
+      bottom: 0rem;
     }
   }
+}
+::-webkit-scrollbar {
+  display: none;
 }
 </style>
