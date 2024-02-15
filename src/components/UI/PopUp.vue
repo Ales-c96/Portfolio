@@ -30,7 +30,7 @@ const props = defineProps({
   padding: 1rem 2rem;
   background-color: $primary-bg;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     top: 5rem;
   }
 

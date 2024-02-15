@@ -46,7 +46,7 @@ const currentRoute = computed(() => {
   background-color: $secondary-bg;
   color: $secondary;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     position: fixed;
     top: 0;
     left: 0;
@@ -70,7 +70,7 @@ const currentRoute = computed(() => {
     text-transform: uppercase;
     padding: 0.5rem 1rem;
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       flex-direction: column;
       padding: 0.5rem;
       font-size: 0.9rem;
@@ -83,14 +83,14 @@ const currentRoute = computed(() => {
       background-color: $body-bg;
       transform: translateX(2rem);
 
-      @include breakpoint(768px) {
+      @include breakpoint(1035px) {
         transform: translateX(0);
       }
     }
   }
 
   &-icon {
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       font-size: 1.3rem;
     }
   }

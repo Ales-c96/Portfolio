@@ -30,7 +30,7 @@ const { getTheme } = useTheme();
   box-shadow: $shadow-color;
   cursor: pointer;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     top: 5rem;
     left: 1rem;
     width: 2rem;
@@ -45,7 +45,7 @@ const { getTheme } = useTheme();
     color: $primary;
     font-size: 1.5rem;
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       font-size: 1rem;
     }
   }

@@ -35,10 +35,10 @@ const downloadPDF = () => {
   background-color: $secondary-bg;
   color: $secondary;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     gap: 1rem;
     border-radius: 0;
-    width: -webkit-fill-available;
+    width: 95%;
   }
   .hr-horizontal {
     @include separator($secondary);

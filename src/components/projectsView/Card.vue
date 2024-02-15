@@ -64,7 +64,7 @@ const props = defineProps({
   box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
   transition: 0.3s ease all;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     width: 18rem;
     height: 13rem;
   }
@@ -76,7 +76,7 @@ const props = defineProps({
       opacity: 1;
       transform: translateY(3rem);
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.554);
-      @include breakpoint(768px) {
+      @include breakpoint(1035px) {
         transform: translateY(0);
       }
     }
@@ -96,7 +96,7 @@ const props = defineProps({
     color: $primary;
     transform: translateY(15rem);
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       opacity: 1;
       transform: translateY(0rem);
       gap: 1rem;
@@ -115,7 +115,7 @@ const props = defineProps({
     white-space: nowrap;
     width: 80%;
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       color: #fff;
     }
   }
@@ -127,7 +127,7 @@ const props = defineProps({
     align-items: center;
     gap: 5rem;
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       justify-content: space-around;
       flex-direction: column;
       gap: 0.5rem;
@@ -142,14 +142,14 @@ const props = defineProps({
   &__links {
     display: flex;
     gap: 0.5rem;
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       gap: 2rem;
     }
     .link {
       color: $primary;
       font-size: 1.3rem;
 
-      @include breakpoint(768px) {
+      @include breakpoint(1035px) {
         font-size: 2rem;
         color: #fff;
       }

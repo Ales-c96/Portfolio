@@ -26,7 +26,7 @@ const props = defineProps({
   gap: 2rem;
   overflow: scroll;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     height: fit-content;
     overflow: hidden;
   }

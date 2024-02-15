@@ -39,7 +39,7 @@ const props = defineProps({
     border-radius: 1rem;
     padding: 1rem;
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       width: 100%;
       height: fit-content;
     }

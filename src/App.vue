@@ -27,7 +27,7 @@ import Footer from "./components/aside/Footer.vue";
   align-items: center;
   gap: 2rem;
 
-  @include breakpoint(768px) {
+  @include breakpoint(1035px) {
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -40,7 +40,7 @@ import Footer from "./components/aside/Footer.vue";
     @include dflexCol();
     gap: 2rem;
 
-    @include breakpoint(768px) {
+    @include breakpoint(1035px) {
       max-width: 100%;
       height: auto;
       align-items: center;
@@ -55,8 +55,8 @@ import Footer from "./components/aside/Footer.vue";
     padding: 2rem;
     @include box();
 
-    @include breakpoint(768px) {
-      width: 18rem;
+    @include breakpoint(1035px) {
+      width: 70%;
       margin-top: 8rem;
     }
   }
