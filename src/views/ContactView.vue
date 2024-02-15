@@ -25,6 +25,14 @@ const props = defineProps({
   @include dflexCol();
   gap: 3rem;
 
+  @include breakpoint(1035px) {
+    gap: 2rem;
+  }
+
+  @include breakpoint(735px) {
+    gap: 1rem;
+  }
+
   &__title {
     @include sectionTitle();
   }
