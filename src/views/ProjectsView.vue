@@ -39,7 +39,8 @@ const handleScrollArrow = (event) => {
 
   @include breakpoint(1035px) {
     flex-direction: row;
-    // height: 30%;
+    justify-content: center;
+    overflow: hidden;
   }
 
   &__title {
