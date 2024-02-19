@@ -5,13 +5,15 @@ const props = defineProps({
     required: true,
   },
 });
-
 </script>
 
 <template>
   <article class="card" :style="`background-image: url(${data.thumb})`">
     <div class="card__item">
-      <h2 class="card__title">{{ data.title }}</h2>
+      <div class="card__data">
+        <h2 class="card__data-title">{{ data.title }}</h2>
+        <p class="card__data-description">{{ data.description }}</p>
+      </div>
       <div class="card__tecs">
         <div>
           <img
@@ -65,8 +67,7 @@ const props = defineProps({
   transition: 0.3s ease all;
 
   @include breakpoint(1035px) {
-    width: 18rem;
-    height: 13rem;
+    height: 15rem;
   }
 
   &:hover {
@@ -74,7 +75,6 @@ const props = defineProps({
     box-shadow: 0px 7px 20px 8px rgba(0, 0, 0, 0.554);
     .card__item {
       opacity: 1;
-      transform: translateY(3rem);
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.554);
       @include breakpoint(1035px) {
         transform: translateY(0);
@@ -86,37 +86,59 @@ const props = defineProps({
     width: 100%;
     height: 100%;
     @include dflexCol();
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
     padding: 1rem;
     transition: 0.3s ease all;
     opacity: 0;
     background-color: $primary-bg;
     color: $primary;
-    transform: translateY(15rem);
 
     @include breakpoint(1035px) {
       opacity: 1;
       transform: translateY(0rem);
       gap: 1rem;
       padding: 3rem;
-      background-color: #0505056a;
+      background-color: #05050599;
     }
   }
 
-  &__title {
-    font-size: 1rem;
-    font-weight: 700;
-    color: $primary;
-    text-align: center;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 80%;
+  &__data {
+    width: 100%;
+    position: relative;
+    @include dflexCol();
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
 
-    @include breakpoint(1035px) {
-      color: #fff;
+    &-title {
+      width: 80%;
+      font-size: 1rem;
+      font-weight: 700;
+      color: $primary;
+      text-align: center;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+
+      @include breakpoint(1035px) {
+        color: #fff;
+        font-size: 0.9rem;
+      }
+    }
+
+    &-description {
+      width: 80%;
+      top: 2rem;
+      color: $primary;
+      text-align: center;
+
+      @include breakpoint(1035px) {
+        color: #fff;
+        font-size: 0.8rem;
+      }
     }
   }
 
