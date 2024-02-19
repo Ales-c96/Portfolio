@@ -2,23 +2,59 @@
     "about": {
         "description": {
             "title": "Hola, soy Alex",
-            "description": "Me sumergí en el mundo del desarrollo web después de explorar el terreno del marketing. Con este trasfondo, entendí algunos aspectos de la captación de la atención del usuario y su comportamiento. Esto me ayudó a perfeccionar la UX y la UI de algunos desarrollos, pero lo que realmente me gusta es la creatividad y plasmar las ideas en experiencia palpable en la interfaz. Siempre estoy listo para desafíos que me hagan seguir avanzando en el mundo del diseño, el desarrollo y crecer a nivel personal y profesional."
+            "description": "Desarrollador front-end con +3 años de experiencia. Apasionado por la innovación tecnológica y siempre en búsqueda de soluciones creativas para desafíos complejos. Especializado en el desarrollo de interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React y HTML5/CSS3 y JavaScript. Con un enfoque centrado en el usuario."
         },
         "aptitudes": {
             "title": "Tecnologías y Herramientas",
             "aptitudes": [
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-oreja-S7vlknTAElsYJGxN2GDYoeBL0xLoGy.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/javascript-6wjXFLLAA18MUPQ9G10skiEsBeDz2J.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/jquery-vertical-S8bHXHTsWjHM0mV8lZzwrSaCBSQ3yL.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-php%20(1)-KOJDQiufsZveAEwqusaQnkeBe8zzi0.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-mysql%20(1)-P51ZaYQvShD2BUcG54hv0M5VsbhQLD.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-wordpress-n8bSO9P21lcrzSqWFBp1xm165Aoxvr.svg",
-                "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-git-VSpRU2tRQIZQplLOcpniMtwDi6AdUL.svg"
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "name": "HTML"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg",
+                    "name": "SCSS"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-oreja-S7vlknTAElsYJGxN2GDYoeBL0xLoGy.svg",
+                    "name": "Bootstrap"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg",
+                    "name": "Tailwind"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/javascript-6wjXFLLAA18MUPQ9G10skiEsBeDz2J.svg",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/jquery-vertical-S8bHXHTsWjHM0mV8lZzwrSaCBSQ3yL.svg",
+                    "name": "JQuery"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "name": "VueJs"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-php%20(1)-KOJDQiufsZveAEwqusaQnkeBe8zzi0.svg",
+                    "name": "PHP"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-mysql%20(1)-P51ZaYQvShD2BUcG54hv0M5VsbhQLD.svg",
+                    "name": "MySql"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-wordpress-n8bSO9P21lcrzSqWFBp1xm165Aoxvr.svg",
+                    "name": "Wordpress"
+                },
+                {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-git-VSpRU2tRQIZQplLOcpniMtwDi6AdUL.svg",
+                    "name": "Git"
+                }
             ]
         },
         "experience": [

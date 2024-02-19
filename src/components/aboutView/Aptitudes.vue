@@ -11,7 +11,7 @@ const props = defineProps({
     <h2 class="container__title">{{ data.title }}</h2>
     <div class="container__aptitudes">
       <div v-for="aptitud in data.aptitudes">
-        <img class="container__aptitudes-tec" :src="aptitud" alt="icono de tecnología">
+        <img class="container__aptitudes-tec" :src="aptitud.icon" :alt="`icono de ${aptitud.name}`">
       </div>
     </div>
   </div>
