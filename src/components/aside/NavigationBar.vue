@@ -45,6 +45,7 @@ const currentRoute = computed(() => {
   padding: 2rem;
   background-color: $secondary-bg;
   color: $secondary;
+  z-index: 2;
 
   @include breakpoint(1035px) {
     position: fixed;
