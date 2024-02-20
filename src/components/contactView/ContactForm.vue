@@ -90,6 +90,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
       border: none;
       border-bottom: 2px solid $body-bg;
       padding: 1rem;
+      background-color: $primary-bg;
 
       &::placeholder {
         font-size: 1.2rem;
