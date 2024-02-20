@@ -1,6 +1,5 @@
 <script setup>
 import ContactForm from "../components/contactView/ContactForm.vue";
-import Description from "../components/aboutView/Description.vue";
 
 const props = defineProps({
   data: {
