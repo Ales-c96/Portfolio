@@ -40,7 +40,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
     <div class="form-item">
       <div v-if="!validEmail" class="error">
         <p class="error__msg">
-          Email válido.
+          El email no es válido.
         </p>
       </div>
       <label for="email"></label>
