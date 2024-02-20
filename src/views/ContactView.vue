@@ -13,7 +13,7 @@ const props = defineProps({
 <template>
   <div class="contact">
     <h2 class="contact__title">{{ data.title }}</h2>
-    <Description :data="data" />
+    <p>{{ data.description }}</p>
     <ContactForm />
   </div>
 </template>
