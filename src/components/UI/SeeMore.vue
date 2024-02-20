@@ -5,10 +5,14 @@ const showMore = ref(false);
 
 <template>
   <div class="seeMore">
-    <button class="seeMore__button" @click="showMore = !showMore">{{ showMore ? 'Ver menos...' : 'Ver más...' }}</button>
-    <div :class="[showMore ? 'seeMore__text--active' : '']" class="seeMore__text">
-      <slot></slot>
-    </div>
+    <button class="seeMore__button" @click="showMore = !showMore">
+      {{ showMore ? "Ver menos..." : "Ver más..." }}
+    </button>
+    <transition name="fade">
+      <div v-if="showMore">
+        <slot></slot>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -16,8 +20,8 @@ const showMore = ref(false);
 @import "../../assets/utilities.scss";
 
 .seeMore {
-    @include dflexCol();
-    gap: 1rem;
+  @include dflexCol();
+  gap: 1rem;
 
   &__button {
     border: none;
@@ -26,16 +30,6 @@ const showMore = ref(false);
     color: $primary;
     font-weight: 900;
     cursor: pointer;
-  }
-
-  &__text {
-    overflow: hidden;
-    height: 0;
-    transition: 0.3s ease all;
-    
-    &--active {
-      height: initial;
-    }
   }
 }
 </style>

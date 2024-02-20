@@ -10,13 +10,14 @@ const props = defineProps({
   <div class="container">
     <h2 class="container__title">{{ data.title }}</h2>
     <div class="container__aptitudes">
-      <div v-for="aptitud in data.aptitudes">
+      <div class="aptitude" v-for="aptitud in data.aptitudes">
         <img
-          class="container__aptitudes-tec"
+          class="aptitude__tec"
           :src="aptitud.icon"
           :alt="`icono de ${aptitud.name}`"
           :title="aptitud.name"
         />
+        <p class="aptitude__title">{{ aptitud.name }}</p>
       </div>
     </div>
   </div>
@@ -40,7 +41,7 @@ const props = defineProps({
     @include dflexWrap();
     justify-content: center;
     gap: 1rem;
-    width: 55%;
+    width: 95%;
     border-radius: 1rem;
     padding: 1rem;
 
@@ -49,8 +50,31 @@ const props = defineProps({
       height: fit-content;
     }
 
-    &-tec {
-      width: 3rem;
+    .aptitude {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5rem;
+      padding: .3rem;
+      background-color: $input-bg;
+      border-radius: .5rem;
+      transition: .3s ease all;
+
+      &__tec {
+        width: 1.5rem;
+      }
+
+      &__title {
+        font-weight: bold;
+        cursor: default;
+      }
+
+      &:hover {
+        transform: scale(1.5);
+        box-shadow: $shadow-color;
+        z-index: 1;
+      }
+
     }
   }
 }

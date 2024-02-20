@@ -109,7 +109,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
       border: 0.2rem solid $body-bg;
       border-radius: 0.5rem;
       transition: 0.3s ease all;
-      color: $secondary;
+      color: $primary;
       font-weight: 900;
       cursor: pointer;
 
