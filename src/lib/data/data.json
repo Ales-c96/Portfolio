@@ -104,7 +104,7 @@
             {
                 "id": "3",
                 "title": "Cotizador de criptomonedas",
-                "description": "Pequeña aplicación que muestra en tiempo real el valor de una criptomoneda enrelación con la moneda FIAT seleccionada",
+                "description": "Pequeña aplicación que muestra en tiempo real el valor de una criptomoneda en relación con la moneda FIAT seleccionada",
                 "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/criptoquoter-qSrnOmLDqtyk2ZVFFivxZjQwDxT0hq.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-cripto-quoter.vercel.app/",
