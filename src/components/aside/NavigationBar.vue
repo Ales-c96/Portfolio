@@ -28,7 +28,7 @@ const currentRoute = computed(() => {
       class="navbar__element"
       active-class="navbar__element--active"
       :to="{ name: 'contact' }"
-      ><i class="fa-regular fa-paper-plane"></i>Contacto</RouterLink
+      ><i class="fa-regular fa-paper-plane navbar-icon"></i>Contacto</RouterLink
     >
   </nav>
 </template>
