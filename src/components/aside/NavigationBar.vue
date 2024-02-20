@@ -45,7 +45,6 @@ const currentRoute = computed(() => {
   padding: 2rem;
   background-color: $secondary-bg;
   color: $secondary;
-  z-index: 2;
 
   @include breakpoint(1035px) {
     position: fixed;
@@ -59,7 +58,7 @@ const currentRoute = computed(() => {
     padding: 1rem 0;
     background-color: $secondary-bg;
     border-radius: 0;
-    z-index: 1;
+    z-index: 2;
   }
   &__element {
     display: flex;
