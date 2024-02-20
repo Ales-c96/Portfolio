@@ -15,7 +15,7 @@ const props = defineProps({
     <h2 class="about__title">{{ data.description.title }}</h2>
     <Description :data="data.description" />
     <Aptitudes :data="data.aptitudes" />
-    <Experience :data="data.experience"/>
+    <Experience :data="data.experience" />
   </div>
 </template>
 

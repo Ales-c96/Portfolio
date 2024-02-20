@@ -1,4 +1,5 @@
 <script setup>
+import SeeMore from '../UI/SeeMore.vue';
 const props = defineProps({
   data: {
     type: Object,
@@ -11,6 +12,7 @@ const props = defineProps({
     <p class="container__description">
       {{ data.description }}
     </p>
+    <SeeMore>{{ data.seeMore }}</SeeMore>
   </div>
 </template>
 
@@ -18,9 +20,6 @@ const props = defineProps({
 @import "../../assets/utilities.scss";
 .container {
   @include dflexCol();
-  gap: 2rem;
-
-  &__description {
-  }
+  gap: 1rem;
 }
 </style>
