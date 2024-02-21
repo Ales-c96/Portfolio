@@ -2,9 +2,7 @@
 	font-family: 'Quicksand';
 	src: url('./fonts/Quicksand-Regular.ttf') format('truetype');
 }
-h1, h2, h3, h4, p, button, span, a {
-	transition: .3s ease all;
-}
+
 hr {
 	margin: 0;
 	padding: 0;
