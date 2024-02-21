@@ -39,7 +39,6 @@ body::before {
     width: 100vw;
     z-index: 0;
     background-image: url(https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/ssscribble-HurHa4OHBrZJLBbkPam3gKOFiQEsLA.svg), radial-gradient(53% 67% at 50% 81%, var(--gradient-light-bg) 0%, var(--gradient-dark-bg) 100%);
-    background-size: 612px, auto;
     background-position: center, 0% 0%;
     background-repeat: repeat, repeat;
 }
