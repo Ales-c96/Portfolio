@@ -21,5 +21,8 @@ const props = defineProps({
 .container {
   @include dflexCol();
   gap: 1rem;
+  &__description {
+    line-height: 1.2rem;
+  }
 }
 </style>

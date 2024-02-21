@@ -8,10 +8,10 @@ $primary-color: var(--primary-color);
 $body-bg: var(--body-bg);
 $shadow-color: var(--shadow-color);
 $input-bg: var(--input-bg);
+$solid-bg: var(--solid-bg);
 
 //Mixins
 @mixin box($param-width: auto) {
-  background-color: $primary-bg;
   box-shadow: $shadow-color;
   border-radius: .5rem;
 }
@@ -97,15 +97,26 @@ $input-bg: var(--input-bg);
   }
 }
 
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.5s ease;
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all .5s;
 }
 
-.slide-enter-from,
-.slide-leave-to {
+.slide-right-enter-from,
+.slide-right-leave-to {
   opacity: 0;
   transform: translateX(10rem);
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: all .3s ease;
+}
+
+.slide-left-enter-from,
+.slide-left-leave-to {
+  opacity: 0;
+  transform: translateY(-10rem);
 }
 
 .fade-enter-active,
@@ -157,6 +168,9 @@ h3 {
   border: 10px solid transparent;
 }
 
-*::-webkit-scrollbar-thumb {        
+*::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0 0 10px;
+}
+*::-webkit-scrollbar-corner {
+  display: none;
 }

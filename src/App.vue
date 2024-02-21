@@ -1,17 +1,24 @@
 <script setup>
+import { ref } from "vue";
 import { RouterView } from "vue-router";
 import NavigationBar from "./components/aside/NavigationBar.vue";
 import Footer from "./components/aside/Footer.vue";
+
+const welcome = ref(false);
+
+setTimeout(() => {
+  welcome.value = true;
+}, 500);
 </script>
 
 <template>
   <main class="main">
-    <aside class="main__aside">
-      <NavigationBar />
-      <Footer />
-    </aside>
+    <transition-group name="slide-left" mode="out-in" tag="aside" class="main__aside">
+      <NavigationBar v-if="welcome" />
+      <Footer v-if="welcome"  />
+    </transition-group>
     <RouterView v-slot="{ Component }">
-      <transition name="slide" mode="out-in" tag="div" class="main__content">
+      <transition name="slide-right" mode="out-in" tag="div" class="main__content">
         <component :is="Component" />
       </transition>
     </RouterView>
@@ -53,6 +60,7 @@ import Footer from "./components/aside/Footer.vue";
     width: 100%;
     height: calc(100% - 4rem);
     padding: 2rem;
+    background-color: $primary-bg;
     @include box();
 
     @include breakpoint(1035px) {

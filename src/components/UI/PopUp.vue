@@ -28,7 +28,7 @@ const props = defineProps({
   gap: 1rem;
   @include box();
   padding: 1rem 2rem;
-  background-color: $primary-bg;
+  background-color: $solid-bg;
 
   @include breakpoint(1035px) {
     top: 5rem;

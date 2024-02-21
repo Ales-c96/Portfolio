@@ -90,7 +90,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
       border: none;
       border-bottom: 2px solid $body-bg;
       padding: 1rem;
-      background-color: $primary-bg;
+      background-color: transparent;
 
       &::placeholder {
         font-size: 1.2rem;
@@ -109,7 +109,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
       border: 0.2rem solid $body-bg;
       border-radius: 0.5rem;
       transition: 0.3s ease all;
-      color: $primary;
+      color: $secondary;
       font-weight: 900;
       cursor: pointer;
 

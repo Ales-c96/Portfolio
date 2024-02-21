@@ -1,37 +1,59 @@
 :root {
     --primary: #000;
     --secondary: #ffffff;
-    --hover: #ffbd5985;
+    --hover: #5d2b8e;
     --primary-bg: #fff;
-    --secondary-bg: #191919;
+    --secondary-bg: #191919bc;
     --primary-color: #000;
-    --body-bg: #FFBD59;
-    --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
+    --body-bg: #7D42B8;
+    --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.732);
     --input-bg: #dbdbdb;
+    --solid-bg: #fff;
 }
 
 [data-theme='dark'] {
     --primary: #f0f0f0;
-    --secondary: #ffffff;
-    --hover: #ffbd5985;
-    --primary-bg: #191919;
-    --secondary-bg: #191919;
+    --primary-bg: #191919bc;
     --primary-color: #f0f0f0;
-    --body-bg: #a77b39;
-    --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
     --input-bg: #343434;
+    --solid-bg: #191919;
 }
 
 body {
-    transition: .5s ease all;
-    background-color: var(--body-bg);
+    line-height: 1.0;
+    min-height: 100vh;
+    min-width: 320px;
+    overflow-x: hidden;
+    word-wrap: break-word;
     color: var(--primary-color);
 }
 
-#app {
+body::before {
+    background-attachment: scroll;
+    content: '';
+    display: block;
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: scale(1);
     width: 100vw;
-    height: 100dvh;
-    display: grid;
-    place-items: center;
-    overflow-x: hidden;
+    z-index: 0;
+    background-image: url(public\gradiante.svg), radial-gradient(53% 67% at 50% 81%, #FFC0B8 0%, #7D42B8 100%);
+    background-size: 512px, auto;
+    background-position: center, 0% 0%;
+    background-repeat: repeat, repeat;
+}
+
+#app {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
 }

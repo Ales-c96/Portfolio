@@ -10,7 +10,9 @@ const showMore = ref(false);
     </button>
     <transition name="fade">
       <div v-if="showMore">
-        <slot></slot>
+        <p class="seeMore__description">
+          <slot></slot>
+        </p>
       </div>
     </transition>
   </div>
@@ -21,15 +23,25 @@ const showMore = ref(false);
 
 .seeMore {
   @include dflexCol();
-  gap: 1rem;
+  gap: .5rem;
 
   &__button {
     border: none;
-    background-color: transparent;
+    background-color: $body-bg;
+    color: $secondary;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
     width: fit-content;
-    color: $primary;
-    font-weight: 900;
+    font-weight: 500;
+    font-size: .8rem;
     cursor: pointer;
+
+    &:hover{
+      background-color: $hover;
+    }
+  }
+  &__description {
+    line-height: 1.2rem;
   }
 }
 </style>

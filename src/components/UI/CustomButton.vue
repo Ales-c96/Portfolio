@@ -13,13 +13,12 @@ const emit = defineEmits(["click-event"]);
   border: 0.2rem solid $body-bg;
   border-radius: 0.5rem;
   transition: 0.3s ease all;
-  color: $primary;
+  color: $secondary;
   font-weight: 900;
   cursor: pointer;
 
   &:hover {
     background-color: transparent;
-    color: $secondary;
   }
 }
 </style>

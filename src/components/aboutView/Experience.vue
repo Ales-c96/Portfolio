@@ -1,4 +1,6 @@
 <script setup>
+import SeeMore from '../UI/SeeMore.vue';
+
 const props = defineProps({
   data: {
     type: Object,
@@ -13,6 +15,7 @@ const props = defineProps({
       <p><span class="data-exp">Empresa:</span> {{ exp.company }}</p>
       <p><span class="data-exp">Puesto:</span> {{ exp.position }}</p>
       <p><span class="data-exp">Tiempo:</span> {{ exp.time }}</p>
+      <SeeMore v-if="exp.description">{{ exp.description }}</SeeMore>
       <hr class="hr-horizontal" />
     </div>
   </div>
@@ -32,7 +35,7 @@ const props = defineProps({
 
   &__experience {
     @include dflexCol();
-    gap: 0.3rem;
+    gap: 0.5rem;
   }
 }
 .data-exp {

@@ -78,7 +78,7 @@ const currentRoute = computed(() => {
     }
 
     &--active {
-      color: $primary;
+      color: $secondary;
       border-radius: 0.5rem;
       background-color: $body-bg;
       transform: translateX(2rem);
