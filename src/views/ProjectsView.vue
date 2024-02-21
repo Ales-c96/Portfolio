@@ -38,6 +38,8 @@ const handleScrollArrow = (event) => {
   overflow: overlay;
 
   @include breakpoint(1035px) {
+    background-color: transparent;
+    box-shadow: none;
     flex-direction: row;
     justify-content: center;
     overflow: hidden;

@@ -97,7 +97,6 @@ const props = defineProps({
 
     @include breakpoint(1035px) {
       opacity: 1;
-      transform: translateY(0rem);
       gap: 1rem;
       padding: 3rem;
       background-color: #05050599;
