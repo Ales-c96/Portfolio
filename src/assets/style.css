@@ -36,7 +36,7 @@ body::before {
     width: 100vw;
     z-index: 0;
     background-image: url(https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/gradiante-ENUInL9EYjFAV0urrHK2TJ9vrhfiBr.svg), radial-gradient(53% 67% at 50% 81%, #FFC0B8 0%, #7D42B8 100%);
-    background-size: 712px, auto;
+    background-size: 612px, auto;
     background-position: center, 0% 0%;
     background-repeat: repeat, repeat;
 }
