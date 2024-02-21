@@ -35,7 +35,7 @@ body::before {
     transform: scale(1);
     width: 100vw;
     z-index: 0;
-    background-image: url(gradiante.svg), radial-gradient(53% 67% at 50% 81%, #FFC0B8 0%, #7D42B8 100%);
+    background-image: url(src\assets\gradiante.svg), radial-gradient(53% 67% at 50% 81%, #FFC0B8 0%, #7D42B8 100%);
     background-size: 512px, auto;
     background-position: center, 0% 0%;
     background-repeat: repeat, repeat;
