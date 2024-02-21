@@ -19,7 +19,7 @@ setTimeout(() => {
     </transition-group>
     <RouterView v-slot="{ Component }">
       <transition name="slide-right" mode="out-in" tag="div" class="main__content">
-        <component :is="Component" />
+        <component v-if="welcome" :is="Component" />
       </transition>
     </RouterView>
   </main>
