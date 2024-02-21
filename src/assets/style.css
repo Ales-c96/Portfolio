@@ -2,7 +2,6 @@
 	font-family: 'Quicksand';
 	src: url('./fonts/Quicksand-Regular.ttf') format('truetype');
 }
-
 :root {
     --primary: #000;
     --secondary: #fff;
