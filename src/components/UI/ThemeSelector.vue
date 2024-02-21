@@ -22,7 +22,7 @@ const { getTheme } = useTheme();
   width: 4rem;
   height: 4rem;
   border: 0.2rem solid $primary;
-  background-color: $solid-bg;
+  background-color: $primary-bg;
   border-radius: 50%;
   display: flex;
   justify-content: center;

@@ -1,22 +1,25 @@
 :root {
     --primary: #000;
-    --secondary: #ffffff;
-    --hover: #5d2b8e;
-    --primary-bg: #fff;
-    --secondary-bg: #191919bc;
-    --primary-color: #000;
-    --body-bg: #7D42B8;
+    --secondary: #fff;
+    --hover: #208e91b3;
+    --primary-bg: #fffcf7;
+    --secondary-bg: #000000b1;
+    --primary-color: #121212;
+    --body-bg: #208e91;
     --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.732);
-    --input-bg: #dbdbdb;
-    --solid-bg: #fff;
+    --input-bg: #d1cfca;
+    --gradient-dark-bg: #0a293c;
+    --gradient-light-bg: #457491;
 }
 
 [data-theme='dark'] {
     --primary: #f0f0f0;
-    --primary-bg: #191919bc;
+    --primary-bg: #0000009f;
     --primary-color: #f0f0f0;
     --input-bg: #343434;
     --solid-bg: #191919;
+    --gradient-dark-bg: #161616;
+    --gradient-light-bg: #373737;
 }
 
 body {
@@ -35,7 +38,7 @@ body::before {
     transform: scale(1);
     width: 100vw;
     z-index: 0;
-    background-image: url(https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/gradiante-ENUInL9EYjFAV0urrHK2TJ9vrhfiBr.svg), radial-gradient(53% 67% at 50% 81%, #FFC0B8 0%, #7D42B8 100%);
+    background-image: url(https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/ssscribble-HurHa4OHBrZJLBbkPam3gKOFiQEsLA.svg), radial-gradient(53% 67% at 50% 81%, var(--gradient-light-bg) 0%, var(--gradient-dark-bg) 100%);
     background-size: 612px, auto;
     background-position: center, 0% 0%;
     background-repeat: repeat, repeat;
