@@ -69,6 +69,7 @@ const currentRoute = computed(() => {
     font-size: 1.3rem;
     text-transform: uppercase;
     padding: 0.5rem 1rem;
+    transition: .3s ease all;
 
     @include breakpoint(1035px) {
       flex-direction: column;
