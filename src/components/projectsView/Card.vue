@@ -72,7 +72,7 @@ const props = defineProps({
 
   &:hover {
     transform: scale(1.1);
-    box-shadow: 0px 0px 15px 1px #208d9183;;
+    box-shadow: $card-shadow;
     .card__item {
       opacity: 1;
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.554);

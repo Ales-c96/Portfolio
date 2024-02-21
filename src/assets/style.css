@@ -10,10 +10,11 @@
     --secondary-bg: #000000b1;
     --primary-color: #121212;
     --body-bg: #208e91;
-    --shadow-color: 0px 7px 15px 1px rgba(0, 0, 0, 0.732);
+    --shadow-color: 0px 7px 15px 1px #000000bb;
     --input-bg: #d1cfca;
     --gradient-dark-bg: #0a293c;
     --gradient-light-bg: #457491;
+    --card-shadow: 0px 0px 15px 1px #000000bb;
 }
 
 [data-theme='dark'] {
@@ -24,6 +25,7 @@
     --solid-bg: #191919;
     --gradient-dark-bg: #161616;
     --gradient-light-bg: #373737;
+    --card-shadow: 0px 0px 15px 1px #208d9183;
 }
 
 body {
