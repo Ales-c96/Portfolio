@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Quicksand';
+	src: url('./fonts/Quicksand-Regular.ttf') format('truetype');
+}
+
 :root {
     --primary: #000;
     --secondary: #fff;
@@ -40,7 +45,7 @@ body::before {
     z-index: 0;
     background-image: url(https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/ssscribble-HurHa4OHBrZJLBbkPam3gKOFiQEsLA.svg), radial-gradient(53% 67% at 50% 81%, var(--gradient-light-bg) 0%, var(--gradient-dark-bg) 100%);
     background-position: center, 0% 0%;
-    background-repeat: repeat, repeat;
+    background-size: cover;
 }
 
 #app {
