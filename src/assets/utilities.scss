@@ -9,6 +9,7 @@ $body-bg: var(--body-bg);
 $shadow-color: var(--shadow-color);
 $input-bg: var(--input-bg);
 $solid-bg: var(--solid-bg);
+$card-shadow: var(--card-shadow);
 
 //Mixins
 @mixin box($param-width: auto) {
