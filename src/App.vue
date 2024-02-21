@@ -34,6 +34,10 @@ setTimeout(() => {
   align-items: center;
   gap: 2rem;
 
+  @include breakpoint(1366px) {
+    width: 85%;
+  }
+
   @include breakpoint(1035px) {
     flex-direction: column;
     width: 100%;

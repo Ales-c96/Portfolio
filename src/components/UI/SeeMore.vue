@@ -23,20 +23,21 @@ const showMore = ref(false);
 
 .seeMore {
   @include dflexCol();
-  gap: .5rem;
+  gap: 0.5rem;
 
   &__button {
     border: none;
     background-color: $body-bg;
     color: $secondary;
-    padding: .2rem .5rem;
-    border-radius: .2rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
     width: fit-content;
     font-weight: 500;
-    font-size: .8rem;
+    font-size: 0.8rem;
     cursor: pointer;
+    transition: 0.3s ease all;
 
-    &:hover{
+    &:hover {
       background-color: $hover;
     }
   }
