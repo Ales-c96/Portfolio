@@ -51,6 +51,7 @@ const handleScrollArrow = (event) => {
       display: none;
     }
   }
+  
   &__grid {
     @include dflexWrap();
     justify-content: center;

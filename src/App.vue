@@ -15,7 +15,7 @@ setTimeout(() => {
   <main class="main">
     <transition-group name="slide-left" mode="out-in" tag="aside" class="main__aside">
       <NavigationBar v-if="welcome" />
-      <Footer v-if="welcome"  />
+      <Footer v-if="welcome" />
     </transition-group>
     <RouterView v-slot="{ Component }">
       <transition name="slide-right" mode="out-in" tag="div" class="main__content">

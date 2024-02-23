@@ -8,42 +8,25 @@ const props = defineProps({
 </script>
 
 <template>
-  <article class="card" :style="`background-image: url(${data.thumb})`">
-    <div class="card__item">
-      <div class="card__data">
-        <h2 class="card__data-title">{{ data.title }}</h2>
-        <p class="card__data-description">{{ data.description }}</p>
-      </div>
+  <article class="card">
+    <h2 class="card__title">{{ data.title }}</h2>
+    <div class="card__head">
+      <img class="card__image" :src="data.thumb" :alt="data.thumbAlt" />
       <div class="card__tecs">
-        <div>
-          <img
-            class="card__tecs-icon"
-            v-for="icons in data.tec"
-            :src="icons"
-            :alt="`Icono de la tecnologia`"
-          />
-        </div>
-        <div class="card__links">
-          <a
-            class="link"
-            :href="data.url"
-            target="_blank"
-            title="Ver proyecto"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-solid fa-eye"></i>
-          </a>
-          <a
-            :href="data.githubUrl"
-            class="link"
-            target="_blank"
-            title="Ver proyecto en github"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-github"></i
-          ></a>
-        </div>
+        <img class="card__tecs-img" v-for="tec in data.tec" :src="tec" alt="" />
       </div>
+    </div>
+    <div class="card__data">
+      <h3></h3>
+      <p>{{ data.description }}</p>
+    </div>
+    <div class="card__links">
+      <a class="card__links-code" title="ir a github" :href="data.githubUrl" target="_blank"
+        >Ver el código <i class="fa-solid fa-arrow-up-right-from-square"></i
+      ></a>
+      <a class="card__links-site" title="ir al sitio" :href="data.url" target="_blank"
+        >Ir al sitio <i class="fa-solid fa-arrow-up-right-from-square"></i
+      ></a>
     </div>
   </article>
 </template>
@@ -51,129 +34,66 @@ const props = defineProps({
 <style lang="scss" scoped>
 @import "../../assets/utilities.scss";
 .card {
-  position: relative;
+  width: 40rem;
   @include dflexCol();
-  justify-content: center;
-  align-items: center;
-  width: 20rem;
-  height: 12rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0.2rem;
-  object-fit: cover;
-  overflow: hidden;
-  box-shadow: 0px 7px 15px 1px rgba(0, 0, 0, 0.554);
-  transition: 0.3s ease all;
+  flex-wrap: wrap;
+  background-color: $primary-bg;
+  @include box();
 
   @include breakpoint(1035px) {
-    height: 15rem;
+    width: 20rem;
   }
 
-  &:hover {
-    transform: scale(1.1);
-    box-shadow: $card-shadow;
-    .card__item {
-      opacity: 1;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.554);
-      @include breakpoint(1035px) {
-        transform: translateY(0);
-      }
-    }
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
   }
 
-  &__item {
+  &__head {
+    position: relative;
+  }
+
+  &__image {
     width: 100%;
-    height: 100%;
-    @include dflexCol();
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    transition: 0.3s ease all;
-    opacity: 0;
-    background-color: $primary-bg;
-    color: $primary;
-
-    @include breakpoint(1035px) {
-      opacity: 1;
-      gap: 1rem;
-      padding: 3rem;
-      background-color: #05050599;
-    }
+    height: auto;
+    object-fit: contain;
   }
 
   &__data {
-    width: 100%;
-    position: relative;
-    @include dflexCol();
+    padding: 1.5rem;
+  }
+
+  &__links {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding: 0 1rem;
+    gap: 2.5rem;
+    padding: 1.5rem;
 
-    &-title {
-      width: 80%;
-      font-size: 1rem;
-      font-weight: 700;
+    a {
+      transition: 0.3s ease all;
       color: $primary;
-      text-align: center;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
+      font-weight: 900;
+      font-size: 0.8rem;
+      cursor: pointer;
 
-      @include breakpoint(1035px) {
-        color: #fff;
-        font-size: 0.9rem;
-      }
-    }
-
-    &-description {
-      width: 80%;
-      top: 2rem;
-      color: $primary;
-      text-align: center;
-
-      @include breakpoint(1035px) {
-        color: #fff;
-        font-size: 0.8rem;
+      &:hover {
+        color: $body-bg;
       }
     }
   }
 
   &__tecs {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 5rem;
-
-    @include breakpoint(1035px) {
-      justify-content: space-around;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    &-icon {
-      width: 2rem;
-      height: auto;
-    }
-  }
-
-  &__links {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    padding: 1rem;
     display: flex;
     gap: 0.5rem;
-    @include breakpoint(1035px) {
-      gap: 2rem;
-    }
-    .link {
-      color: $primary;
-      font-size: 1.3rem;
 
-      @include breakpoint(1035px) {
-        font-size: 2rem;
-        color: #fff;
-      }
+    &-img {
+      width: 2rem;
     }
   }
 }

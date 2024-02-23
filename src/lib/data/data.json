@@ -76,24 +76,10 @@
         "title": "Proyectos",
         "projects": [
             {
-                "id": "1",
-                "title": "Buscador de clima",
-                "description": "Pequeña aplicación que muestra en tiempo real el clima de una zona en concreto previamente seleccionada",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/wheaderapp-UeKuVVa31vNaUZdiMEAQF9H2KgNtoh.webp",
-                "thumbAlt": "imagen del proyecto buscador de climas",
-                "url": "https://weather-app-mu-murex.vercel.app/",
-                "githubUrl": "https://github.com/Ales-c96/Weather_app",
-                "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
-                ]
-            },
-            {
                 "id": "2",
                 "title": "Recetas de bebidas y cocteles",
                 "description": "Aplicación que consume una api de recetas para cócteles en las que puedes agregar y eliminar de favoritos",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/coctailrecipes-gmGgrgJXn0DcjhHcPW42F2cTI2L2HJ.webp",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/concatailrecipes-IvdFWpR2IGk5wbMepWDAjvitGP1Oob.webp",
                 "thumbAlt": "imagen del proyecto de buscador de bebidas",
                 "url": "https://coctail-recipes.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Coctail_recipes",
@@ -143,6 +129,34 @@
                     "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
                     "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
                     "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg"
+                ]
+            },
+            {
+                "id": "6",
+                "title": "Landing page Digitaliz",
+                "description": "Landing page de una empresa digitalizadora. Es una landing simple, los textos son de IA y las imágenes son libres de derechos. Dispone únicamente de un archivo HTML, dos de CSS (Tailwind y un custom), y un archivo JavaScript",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/digitaliz-JL2iqJ1Hqp0XyzwAxoCdYOzLF7WMyn.PNG",
+                "thumbAlt": "imagen del proyecto",
+                "url": "https://digitaliz.vercel.app/",
+                "githubUrl": "https://github.com/Ales-c96/Landing-page-01",
+                "tec": [
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/javascript-6wjXFLLAA18MUPQ9G10skiEsBeDz2J.svg"
+                ]
+            },
+            {
+                "id": "1",
+                "title": "Buscador de clima",
+                "description": "Pequeña aplicación que muestra en tiempo real del clima de una zona en concreto previamente seleccionada",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/wheaderapp-UeKuVVa31vNaUZdiMEAQF9H2KgNtoh.webp",
+                "thumbAlt": "imagen del proyecto buscador de climas",
+                "url": "https://weather-app-mu-murex.vercel.app/",
+                "githubUrl": "https://github.com/Ales-c96/Weather_app",
+                "tec": [
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
                 ]
             }
         ]
