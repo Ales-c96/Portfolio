@@ -12,7 +12,7 @@ const props = defineProps({
     <p class="container__description">
       {{ data.description }}
     </p>
-    <SeeMore>{{ data.seeMore }}</SeeMore>
+    <SeeMore v-if="data.seeMore">{{ data.seeMore }}</SeeMore>
   </div>
 </template>
 

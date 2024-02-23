@@ -12,7 +12,11 @@ const props = defineProps({
 </script>
 <template>
   <div class="about">
-    <h2 class="about__title">{{ data.description.title }}</h2>
+    <div>
+      <h2 class="about__title">{{ data.description.title }}</h2>
+      <h3>{{ data.description.subtitle }}</h3>
+    </div>
+
     <Description :data="data.description" />
     <Aptitudes :data="data.aptitudes" />
     <Experience :data="data.experience" />

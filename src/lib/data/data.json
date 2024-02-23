@@ -2,8 +2,8 @@
     "about": {
         "description": {
             "title": "Hola, soy Alex",
-            "description": "Desarrollador front-end, apasionado por la innovación tecnológica y siempre en búsqueda de soluciones creativas para desafíos complejos tratando siempre de hacer uso de las mejores prácticas. Especializado en el desarrollo de interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario.",
-            "seeMore": "Actualmente me encuentro en pleno desarrollo. Dedico unas horas al día a aprender lo que me gusta y a formarme. Mi objetivo es convertirme en un profesional del desarrollo front-end y, una vez que domine este ámbito, también entrar en el mundo del diseño. Me siento altamente motivado para emprender proyectos que me ayuden a alcanzar estos objetivos. En cuanto al backend, tengo conocimientos medios y he desarrollado algunos servicios y gestionado bases de datos de manera limitada."
+            "subtitle": "Desarrollador web",
+            "description": "Siempre en búsqueda de soluciones creativas para desafíos complejos tratando siempre de hacer uso de las mejores prácticas. Especializado en el desarrollo de interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario."
         },
         "aptitudes": {
             "title": "Hard Skills",
@@ -73,7 +73,7 @@
         ]
     },
     "projects": {
-        "title": "Mis proyectos y sus tecnologías",
+        "title": "Proyectos",
         "projects": [
             {
                 "id": "1",
@@ -148,7 +148,7 @@
         ]
     },
     "contact": {
-        "title": "¿Nos ponemos en contacto?",
+        "title": "Contáctame",
         "description": "Rellena el siguiente formulario y me pondre en contacto contigo."
     }
 }
