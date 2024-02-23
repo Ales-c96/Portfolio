@@ -22,10 +22,10 @@ const props = defineProps({
     </div>
     <div class="card__links">
       <a class="card__links-code" title="ir a github" :href="data.githubUrl" target="_blank"
-        >Ver el código <i class="fa-solid fa-arrow-up-right-from-square"></i
+        >Ver el código <i class="fa-solid fa-arrow-up-right-from-square icon"></i
       ></a>
       <a class="card__links-site" title="ir al sitio" :href="data.url" target="_blank"
-        >Ir al sitio <i class="fa-solid fa-arrow-up-right-from-square"></i
+        >Ir al sitio <i class="fa-solid fa-arrow-up-right-from-square icon"></i
       ></a>
     </div>
   </article>
@@ -80,6 +80,10 @@ const props = defineProps({
 
       &:hover {
         color: $body-bg;
+
+        .icon {
+          transform: translate(5px, -5px);
+        }
       }
     }
   }
@@ -96,5 +100,8 @@ const props = defineProps({
       width: 2rem;
     }
   }
+}
+.icon {
+  transition: 0.3s ease;
 }
 </style>
