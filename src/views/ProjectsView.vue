@@ -19,7 +19,16 @@ const handleScrollArrow = (event) => {
     <h2 class="projects__title">{{ data.title }}</h2>
     <div class="projects__grid">
       <Card v-for="data in data.projects" :key="data.id" :data="data" />
-      <div class="more">Más en desarrollo...</div>
+      <div class="more">
+        <p>Más en desarrollo...</p>
+        <a
+          href="http://https://github.com/Ales-c96?tab=overview&from=2024-02-01&to=2024-02-28"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="more-link"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
     </div>
     <div class="arrow">
       <i
@@ -94,11 +103,24 @@ const handleScrollArrow = (event) => {
   }
 }
 .more {
-  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary;
   font-weight: bold;
+  gap: 1rem;
 
   @include breakpoint(1035px) {
     color: #fff;
+  }
+
+  &-link {
+    transition: .3s ease all;
+    font-size: 1.5rem;
+
+    &:hover{
+      color: $body-bg;
+    }
   }
 }
 ::-webkit-scrollbar {
