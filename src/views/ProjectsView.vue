@@ -20,6 +20,7 @@ const handleScrollArrow = (event) => {
     <div class="projects__grid">
       <Card v-for="data in data.projects" :key="data.id" :data="data" />
     </div>
+    <div>Más en desarrollo...</div>
     <div class="arrow">
       <i
         :class="[hideArrow ? 'arrow__icon--hide' : '']"
