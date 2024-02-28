@@ -22,7 +22,7 @@ const handleScrollArrow = (event) => {
       <div class="more">
         <p>Más en desarrollo...</p>
         <a
-          href="http://https://github.com/Ales-c96?tab=overview&from=2024-02-01&to=2024-02-28"
+          href="https://github.com/Ales-c96"
           target="_blank"
           rel="noopener noreferrer"
           class="more-link"
