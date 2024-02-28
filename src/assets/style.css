@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Quicksand';
-	src: url('./fonts/Quicksand-Regular.ttf') format('truetype');
+	src: url('./fonts/Poppins-Medium.ttf') format('truetype');
 }
 :root {
     --primary: #000;

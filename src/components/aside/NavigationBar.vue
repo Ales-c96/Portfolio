@@ -54,7 +54,7 @@ const currentRoute = computed(() => {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: .5rem;
+    gap: 10%;
     padding: 1rem 0;
     background-color: $secondary-bg;
     border-radius: 0;
@@ -66,7 +66,7 @@ const currentRoute = computed(() => {
     align-items: center;
     gap: 0.5rem;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     padding: 0.5rem 1rem;
     transition: .3s ease all;

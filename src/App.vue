@@ -28,7 +28,7 @@ setTimeout(() => {
 <style lang="scss" scoped>
 @import "./assets/utilities.scss";
 .main {
-  width: 65%;
+  width: 70%;
   height: 43rem;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ setTimeout(() => {
 
   &__aside {
     width: 100%;
-    max-width: 17rem;
+    max-width: 20rem;
     height: 100%;
     @include dflexCol();
     gap: 2rem;
