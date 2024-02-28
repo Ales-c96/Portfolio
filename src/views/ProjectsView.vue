@@ -57,6 +57,7 @@ const handleScrollArrow = (event) => {
 
   &__title {
     @include sectionTitle();
+    text-align: center;
     @include breakpoint(1035px) {
       display: none;
     }

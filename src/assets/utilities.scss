@@ -24,6 +24,7 @@ $card-shadow: var(--card-shadow);
 }
 
 @mixin sectionTitle() {
+  text-transform: uppercase;
   font-size: 3rem;
   font-weight: 600;
 }

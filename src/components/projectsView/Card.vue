@@ -34,15 +34,11 @@ const props = defineProps({
 <style lang="scss" scoped>
 @import "../../assets/utilities.scss";
 .card {
-  width: 40rem;
+  width: 90%;
   @include dflexCol();
   flex-wrap: wrap;
   background-color: $primary-bg;
   @include box();
-
-  @include breakpoint(1035px) {
-    width: 20rem;
-  }
 
   &__title {
     font-size: 1.5rem;
