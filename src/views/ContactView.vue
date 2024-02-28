@@ -34,6 +34,9 @@ const props = defineProps({
 
   &__title {
     @include sectionTitle();
+    @include breakpoint(735px) {
+      font-size: 2rem;
+    }
   }
 }
 </style>
