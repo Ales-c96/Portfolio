@@ -40,6 +40,10 @@ const props = defineProps({
   background-color: $primary-bg;
   @include box();
 
+  @include breakpoint(500px) {
+    width: 20rem;
+  }
+
   &__title {
     font-size: 1.5rem;
     font-weight: bold;
