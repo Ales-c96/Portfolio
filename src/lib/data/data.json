@@ -44,6 +44,10 @@
                     "name": "PHP"
                 },
                 {
+                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/codeigniter-svgrepo-com-SKRzprXqXUOePhxv2bJ7bHKgQDRBx0.svg",
+                    "name": "CodeIgniter"
+                },
+                {
                     "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-mysql%20(1)-P51ZaYQvShD2BUcG54hv0M5VsbhQLD.svg",
                     "name": "MySql"
                 },
