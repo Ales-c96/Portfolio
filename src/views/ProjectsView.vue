@@ -54,8 +54,10 @@ const handleScrollArrow = (event) => {
   }
 
   &__grid {
-    @include dflexWrap();
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
 
     @include breakpoint(1035px) {

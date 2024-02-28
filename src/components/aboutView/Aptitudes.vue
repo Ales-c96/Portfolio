@@ -30,6 +30,7 @@ const props = defineProps({
   gap: 1rem;
   justify-content: center;
   align-items: center;
+  margin: 2.5rem 0 0 0;
 
   &__title {
     width: 100%;

@@ -122,6 +122,7 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
     &__mesaje {
       resize: none;
       color: $primary;
+      height: 5rem;
     }
 
     .error {

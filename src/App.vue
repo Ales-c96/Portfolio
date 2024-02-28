@@ -28,8 +28,8 @@ setTimeout(() => {
 <style lang="scss" scoped>
 @import "./assets/utilities.scss";
 .main {
-  width: 60%;
-  height: 40rem;
+  width: 65%;
+  height: 43rem;
   display: flex;
   align-items: center;
   gap: 2rem;
