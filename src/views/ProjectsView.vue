@@ -19,8 +19,8 @@ const handleScrollArrow = (event) => {
     <h2 class="projects__title">{{ data.title }}</h2>
     <div class="projects__grid">
       <Card v-for="data in data.projects" :key="data.id" :data="data" />
+      <div class="more">Más en desarrollo...</div>
     </div>
-    <div>Más en desarrollo...</div>
     <div class="arrow">
       <i
         :class="[hideArrow ? 'arrow__icon--hide' : '']"
@@ -52,7 +52,7 @@ const handleScrollArrow = (event) => {
       display: none;
     }
   }
-  
+
   &__grid {
     @include dflexWrap();
     justify-content: center;
@@ -89,6 +89,14 @@ const handleScrollArrow = (event) => {
       // animation: bounce-right 1.5s infinite;
       // bottom: 0rem;
     }
+  }
+}
+.more {
+  color: #000;
+  font-weight: bold;
+
+  @include breakpoint(1035px) {
+    color: #fff;
   }
 }
 ::-webkit-scrollbar {
