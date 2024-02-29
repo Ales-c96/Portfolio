@@ -31,7 +31,7 @@
   gap: 1rem;
 
   &__title {
-    font-weight: 700;
+    font-size: 1.3rem;
   }
 
   &__link {
