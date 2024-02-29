@@ -2,7 +2,7 @@
     "about": {
         "description": {
             "subtitle": "Hola, me llamo Alex",
-            "description": "Soy desarrollador web, especializado en el desarrollo Front-end, implementando interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario. Maximizando el rendimiento mediante el uso de CDNs y tratando siempre de cumplir con las pautas de accesibilidad"
+            "description": "Soy desarrollador web, especializado en el desarrollo Front-end, implementando interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario. Maximizando el rendimiento mediante el uso de CDNs y buenas practicas, tratando siempre de cumplir con las pautas de accesibilidad"
         },
         "aptitudes": {
             "title": "Hard Skills",
