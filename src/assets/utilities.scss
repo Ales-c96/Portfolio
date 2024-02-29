@@ -10,6 +10,7 @@ $shadow-color: var(--shadow-color);
 $input-bg: var(--input-bg);
 $solid-bg: var(--solid-bg);
 $card-shadow: var(--card-shadow);
+$text-shadow: var(--text-shadow);
 
 //Mixins
 @mixin box($param-width: auto) {
@@ -27,7 +28,7 @@ $card-shadow: var(--card-shadow);
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: 600;
-  text-shadow: 5px 5px 0px #0000002e;
+  text-shadow: $text-shadow;
 }
 
 @mixin dflexCol() {
