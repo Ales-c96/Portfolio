@@ -88,7 +88,7 @@
             {
                 "id": "2",
                 "title": "Recetas de bebidas y cocteles",
-                "description": "Aplicación que consume una api de recetas para cócteles en las que puedes agregar y eliminar de favoritos",
+                "description": "Aplicación que consume una api de recetas para cócteles en las que puedes agregar y eliminar de favoritos. Uso de Pinia para el manejo de estados y headless UI para los popUps de notificación",
                 "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/concatailrecipes-IvdFWpR2IGk5wbMepWDAjvitGP1Oob.webp",
                 "thumbAlt": "imagen del proyecto de buscador de bebidas",
                 "url": "https://coctail-recipes.vercel.app/",
