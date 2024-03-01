@@ -31,10 +31,10 @@ const { getTheme } = useTheme();
   cursor: pointer;
 
   @include breakpoint(1035px) {
-    top: 5rem;
-    left: 1rem;
-    width: 2rem;
-    height: 2rem;
+    top: 6.5rem;
+    left: 20.5rem;
+    width: 3rem;
+    height: 3rem;
   }
 
   &__chackbox {

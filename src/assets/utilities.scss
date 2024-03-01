@@ -16,6 +16,7 @@ $text-shadow: var(--text-shadow);
 @mixin box($param-width: auto) {
   box-shadow: $shadow-color;
   border-radius: .5rem;
+  backdrop-filter: blur(5px);
 }
 
 @mixin separator($color: $color) {
