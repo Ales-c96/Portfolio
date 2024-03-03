@@ -86,6 +86,20 @@
         "title": "Proyectos",
         "projects": [
             {
+                "id": "1",
+                "title": "Landing page. Tienda de plantas",
+                "description": "Una landing page para una supuesta tienda de plantas, desarrollada con Vue 3 y SCSS. Utilicé Vuetify para el carrusel y el formulario, así como VeeValidate para las validaciones. Para los Estilos elegí la paleta de colores que se muestra en la web y una estética limpia, para los estilos busque inspiración en Pinterest.",
+                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/Plantshop-QWS45UpC8pDBmZNaOXNqtFTqdlEtVk.PNG",
+                "thumbAlt": "imagen del proyecto de la plantilla para tienda de plantas",
+                "url": "https://template-shop-with-cart.vercel.app/",
+                "githubUrl": "https://github.com/Ales-c96/Template_shop_with_cart",
+                "tec": [
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg"
+                ]
+            },
+            {
                 "id": "2",
                 "title": "Recetas de bebidas y cocteles",
                 "description": "Aplicación que consume una api de recetas para cócteles en las que puedes agregar y eliminar de favoritos. Uso de Pinia para el manejo de estados y headless UI para los popUps de notificación",
@@ -115,7 +129,7 @@
             },
             {
                 "id": "6",
-                "title": "Landing page Digitaliz",
+                "title": "Landing page. Digitaliz",
                 "description": "Landing page de prueba para una supuesta empresa digitalizadora inventada por mí. Los textos han sido generados mediante IA y las imágenes son de libre uso.",
                 "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/digitaliz-6K2rhlx0mvrRJF3JZGj2v4NnJfdMqF.webp",
                 "thumbAlt": "imagen del proyecto",
@@ -156,7 +170,7 @@
                 ]
             },
             {
-                "id": "1",
+                "id": "7",
                 "title": "Buscador de clima",
                 "description": "Pequeña aplicación que muestra en tiempo real del clima de una zona en concreto previamente seleccionada",
                 "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/wheaderapp-UeKuVVa31vNaUZdiMEAQF9H2KgNtoh.webp",
