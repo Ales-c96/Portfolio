@@ -2,7 +2,7 @@
 import ContactInfo from "../UI/ContactInfo.vue";
 import CustomButton from "../UI/CustomButton.vue";
 import SocialMedia from "../UI/SocialMedia.vue";
-import cvPdrf from "@assets/pdf/CV.pdf";
+import cvPdrf from "@assets/pdf/Cv_Alejandro_04032024.pdf";
 
 const downloadPDF = () => {
   const link = document.createElement("a");
