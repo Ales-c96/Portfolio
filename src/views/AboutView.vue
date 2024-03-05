@@ -18,9 +18,9 @@ const props = defineProps({
       <h3>{{ data.description.subtitle }}</h3>
     </div>
     <Description :data="data.description" />
-    <Education :data="data.education" />
-    <Aptitudes :data="data.aptitudes" />
     <Experience :data="data.experience" />
+    <Aptitudes :data="data.aptitudes" />
+    <Education :data="data.education" />
   </div>
 </template>
 
