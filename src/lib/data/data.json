@@ -88,7 +88,7 @@
             {
                 "id": "1",
                 "title": "Landing page. Tienda de plantas",
-                "description": "Una landing page para una tienda de plantas con carrito. Desarrollada con Vue 3 y SCSS. Utilicé Vuetify para el carrusel y el formulario, así como VeeValidate para las validaciones. Para los Estilos elegí la paleta de colores que se muestra en la web y una estética limpia para ello busqué inspiración en Pinterest.",
+                "description": "Una landing page para una tienda de plantas con carrito. Desarrollada con Vue 3 y SCSS. Utilicé Vuetify para el carrusel y el formulario, así como VeeValidate para las validaciones. Respecto al estilo me decanté una estética limpia, para ello busqué inspiración en Pinterest.",
                 "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/Plantshop-QWS45UpC8pDBmZNaOXNqtFTqdlEtVk.PNG",
                 "thumbAlt": "imagen del proyecto de la plantilla para tienda de plantas",
                 "url": "https://template-shop-with-cart.vercel.app/",
