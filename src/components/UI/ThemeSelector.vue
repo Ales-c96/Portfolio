@@ -32,7 +32,7 @@ const { getTheme } = useTheme();
 
   @include breakpoint(1035px) {
     top: 6.5rem;
-    left: 20.5rem;
+    left: 80.5%;
     width: 3rem;
     height: 3rem;
   }

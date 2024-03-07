@@ -34,6 +34,11 @@ setTimeout(() => {
   align-items: center;
   gap: 2rem;
 
+  @include breakpoint(1440px) {
+    width: 85%;
+    height: 38rem;
+  }
+
   @include breakpoint(1366px) {
     width: 85%;
   }

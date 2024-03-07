@@ -40,6 +40,11 @@ const downloadPDF = () => {
     border-radius: 0;
     width: 95%;
   }
+
+  @include breakpoint(1440px) {
+    padding: 1rem;
+  }
+
   .hr-horizontal {
     @include separator($secondary);
   }

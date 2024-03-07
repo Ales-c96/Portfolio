@@ -60,6 +60,11 @@ const currentRoute = computed(() => {
     border-radius: 0;
     z-index: 2;
   }
+
+  @include breakpoint(1440px) {
+    padding: 1rem;
+  }
+
   &__element {
     display: flex;
     justify-content: flex-start;
@@ -69,13 +74,13 @@ const currentRoute = computed(() => {
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 0.5rem 1rem;
-    transition: .3s ease all;
+    transition: 0.3s ease all;
 
     @include breakpoint(1035px) {
       flex-direction: column;
       padding: 0.5rem;
       font-size: 0.9rem;
-      gap: .5rem;
+      gap: 0.5rem;
     }
 
     &--active {

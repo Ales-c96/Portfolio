@@ -55,6 +55,12 @@ $text-shadow: var(--text-shadow);
   }
 }
 
+@mixin breakpointBetween($maxWidth, $maxHeight) {
+  @media (max-width: $maxWidth) and (max-height: $maxHeight) {
+    @content;
+  }
+}
+
 //Animaciones
 @keyframes slide-between-colors {
   0% {
