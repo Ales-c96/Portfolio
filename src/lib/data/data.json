@@ -8,55 +8,55 @@
             "title": "Hard Skills",
             "aptitudes": [
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
+                    "icon": "img/icons8-html.svg",
                     "name": "HTML"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg",
+                    "icon": "img/icons8-css.svg",
                     "name": "CSS"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg",
+                    "icon": "img/icons8-scss.svg",
                     "name": "SCSS"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-oreja-S7vlknTAElsYJGxN2GDYoeBL0xLoGy.svg",
+                    "icon": "img/bootstrap_plain_wordmark_logo_icon_146620.svg",
                     "name": "Bootstrap"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg",
+                    "icon": "img/icons8-viento-de-cola-css.svg",
                     "name": "Tailwind"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/javascript-6wjXFLLAA18MUPQ9G10skiEsBeDz2J.svg",
+                    "icon": "img/icons8-javascript.svg",
                     "name": "JavaScript"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/jquery-vertical-S8bHXHTsWjHM0mV8lZzwrSaCBSQ3yL.svg",
+                    "icon": "img/jquery-1-logo-svgrepo-com.svg",
                     "name": "JQuery"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
+                    "icon": "img/icons8-ver-js.svg",
                     "name": "VueJs"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-php%20(1)-KOJDQiufsZveAEwqusaQnkeBe8zzi0.svg",
+                    "icon": "img/icons8-php.svg",
                     "name": "PHP"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/codeigniter-svgrepo-com-SKRzprXqXUOePhxv2bJ7bHKgQDRBx0.svg",
+                    "icon": "img/codeigniter-svgrepo-com.svg",
                     "name": "CodeIgniter"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-mysql%20(1)-P51ZaYQvShD2BUcG54hv0M5VsbhQLD.svg",
+                    "icon": "img/mysql-official.svg",
                     "name": "MySql"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-wordpress-n8bSO9P21lcrzSqWFBp1xm165Aoxvr.svg",
+                    "icon": "img/wordpress-svgrepo-com.svg",
                     "name": "Wordpress"
                 },
                 {
-                    "icon": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/icons8-git-VSpRU2tRQIZQplLOcpniMtwDi6AdUL.svg",
+                    "icon": "img/icons8-github.svg",
                     "name": "Git"
                 }
             ]
@@ -89,98 +89,98 @@
                 "id": "1",
                 "title": "Landing page. Tienda de plantas",
                 "description": "Una landing page para una tienda de plantas con carrito. Desarrollada con Vue 3 y SCSS. Utilicé Vuetify para el carrusel y el formulario, así como VeeValidate para las validaciones. Respecto al estilo me decanté una estética limpia, para ello busqué inspiración en Pinterest.",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/Plantshop-QWS45UpC8pDBmZNaOXNqtFTqdlEtVk.PNG",
+                "thumb": "img/Plantshop.webp",
                 "thumbAlt": "imagen del proyecto de la plantilla para tienda de plantas",
                 "url": "https://template-shop-with-cart.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Template_shop_with_cart",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg"
+                    "img/icons8-ver-js.svg",
+                    "img/icons8-html.svg",
+                    "img/icons8-scss.svg"
                 ]
             },
             {
                 "id": "2",
                 "title": "Recetas de bebidas y cocteles",
                 "description": "Aplicación que consume una api de recetas para cócteles en las que puedes agregar y eliminar de favoritos. Uso de Pinia para el manejo de estados y headless UI para los popUps de notificación",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/concatailrecipes-IvdFWpR2IGk5wbMepWDAjvitGP1Oob.webp",
+                "thumb": "img/cocktail.webp",
                 "thumbAlt": "imagen del proyecto de buscador de bebidas",
                 "url": "https://coctail-recipes.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Coctail_recipes",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg"
+                    "img/icons8-ver-js.svg",
+                    "img/icons8-html.svg",
+                    "img/icons8-viento-de-cola-css.svg"
                 ]
             },
             {
                 "id": "3",
                 "title": "Cotizador de criptomonedas",
                 "description": "Pequeña aplicación que muestra en tiempo real el valor de una criptomoneda en relación con la moneda FIAT seleccionada",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/criptoquoter-qSrnOmLDqtyk2ZVFFivxZjQwDxT0hq.webp",
+                "thumb": "img/criptos.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-cripto-quoter.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Simple_cripto_quoter",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
+                    "img/icons8-ver-js.svg",
+                    "img/icons8-html.svg",
+                    "img/icons8-css.svg"
                 ]
             },
             {
                 "id": "6",
                 "title": "Landing page. Digitaliz",
                 "description": "Landing page de prueba para una supuesta empresa digitalizadora inventada por mí. Los textos han sido generados mediante IA y las imágenes son de libre uso.",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/digitaliz-6K2rhlx0mvrRJF3JZGj2v4NnJfdMqF.webp",
+                "thumb": "img/digitaliz.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://digitaliz.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Landing-page-01",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/javascript-6wjXFLLAA18MUPQ9G10skiEsBeDz2J.svg"
+                    "img/icons8-html.svg",
+                    "img/icons8-viento-de-cola-css.svg",
+                    "img/icons8-javascript.svg"
                 ]
             },
             {
                 "id": "4",
                 "title": "Administrador de clientes clínica veterinaria",
                 "description": "Un pequeño CRM para administrar clientes de una clínica veterinaria",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/vetCrm-fW3EMqTnpJd3VmtUe3a8vvl1xbdoo9.webp",
+                "thumb": "img/vet.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://simple-vet-crm.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Simple_Vet_CRM",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/tailwind-gvBwdNYlDurrtj3ceyGZJULvrZV2yV.svg"
+                    "img/icons8-ver-js.svg",
+                    "img/icons8-html.svg",
+                    "img/icons8-viento-de-cola-css.svg"
                 ]
             },
             {
                 "id": "5",
                 "title": "Administrador de Presupuesto",
                 "description": "Aplicación que permite ingresar y administrar un presupuesto, con categorías y filtros de búsqueda",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/budgetmanager-OUxVccUFvL7WQftgd7x8RxukB7ATkz.webp",
+                "thumb": "img/budget.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://budget-manager-psi.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Budget_manager",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/sass-7pJGY6mctCO2qlnCrTI2tmn5gGRJVv.svg"
+                    "img/icons8-ver-js.svg",
+                    "img/icons8-html.svg",
+                    "img/icons8-scss.svg"
                 ]
             },
             {
                 "id": "7",
                 "title": "Buscador de clima",
                 "description": "Pequeña aplicación que muestra en tiempo real del clima de una zona en concreto previamente seleccionada",
-                "thumb": "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/wheaderapp-UeKuVVa31vNaUZdiMEAQF9H2KgNtoh.webp",
+                "thumb": "img/climate.webp",
                 "thumbAlt": "imagen del proyecto buscador de climas",
                 "url": "https://weather-app-mu-murex.vercel.app/",
                 "githubUrl": "https://github.com/Ales-c96/Weather_app",
                 "tec": [
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/vue-xvn7Dx78kVD2bhQZxpZCFdGzpIcf3y.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/html-Pw6rW3ujA3e1VeOg31CmWG3fNWjVMv.svg",
-                    "https://c1prowbmhyo8n8ks.public.blob.vercel-storage.com/svg/css-lBFcVpKOhekpp58qbyx8sJataGWocU.svg"
+                    "img/icons8-ver-js.svg",
+                    "img/icons8-html.svg",
+                    "img/icons8-css.svg"
                 ]
             }
         ]

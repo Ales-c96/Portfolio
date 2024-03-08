@@ -11,9 +11,9 @@ const props = defineProps({
   <article class="card">
     <h2 class="card__title">{{ data.title }}</h2>
     <div class="card__head">
-      <img class="card__image" :src="data.thumb" :alt="data.thumbAlt" />
+      <img class="card__image" :src="data.thumb" :alt="data.thumbAlt" loading="lazy" />
       <div class="card__tecs">
-        <img class="card__tecs-img" v-for="tec in data.tec" :src="tec" alt="" />
+        <img class="card__tecs-img" v-for="tec in data.tec" :src="tec" alt="" loading="lazy"/>
       </div>
     </div>
     <div class="card__data">

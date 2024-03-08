@@ -16,6 +16,7 @@ const props = defineProps({
           :src="aptitud.icon"
           :alt="`icono de ${aptitud.name}`"
           :title="aptitud.name"
+          loading="lazy"
         />
         <p class="aptitude__title">{{ aptitud.name }}</p>
       </div>
