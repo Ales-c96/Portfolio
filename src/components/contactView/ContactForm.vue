@@ -83,6 +83,10 @@ const { handleSubmit, validName, validEmail, validMsg, showError, showSuccess, l
   @include dflexCol();
   gap: 3rem;
 
+  @include breakpoint(1440px) {
+    gap: 2rem
+  }
+
   &-item {
     @include dflexCol();
 

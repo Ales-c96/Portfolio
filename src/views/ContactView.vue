@@ -24,7 +24,7 @@ const props = defineProps({
   @include dflexCol();
   gap: 3rem;
 
-  @include breakpoint(1035px) {
+  @include breakpoint(1440px) {
     gap: 2rem;
   }
 
