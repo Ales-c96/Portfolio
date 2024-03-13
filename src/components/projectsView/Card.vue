@@ -25,7 +25,7 @@ const props = defineProps({
         >Ver el código <i class="fa-solid fa-arrow-up-right-from-square icon"></i
       ></a>
       <a class="card__links-site" title="ir al sitio" :href="data.url" target="_blank"
-        >Ir al sitio <i class="fa-solid fa-arrow-up-right-from-square icon"></i
+        >Ver Demo <i class="fa-solid fa-arrow-up-right-from-square icon"></i
       ></a>
     </div>
   </article>

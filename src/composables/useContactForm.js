@@ -34,13 +34,14 @@ export default function useContactForm(name, email, msg) {
 
       return;
     }
+
     loading.value = true;
     const postData = {
       name: name.value,
       email: email.value,
       message: msg.value,
     };
-
+    
     const url = "https://portfolio-bck-production.up.railway.app/index.php";
     const requestOptions = {
       method: "POST",
