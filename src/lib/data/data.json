@@ -2,7 +2,7 @@
     "about": {
         "description": {
             "subtitle": "Hola, me llamo Alex",
-            "description": "Soy desarrollador web, especializado en el desarrollo Front-end, implementando interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario. Maximizando el rendimiento mediante el uso de CDNs y buenas practicas, tratando siempre de cumplir con las pautas de accesibilidad"
+            "description": "Soy desarrollador web, especializado en el desarrollo Front-end, implementando interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario. Maximizando el rendimiento mediante el uso de CDNs y buenas practicas, tratando siempre de cumplir con las pautas de accesibilidad y un enfoque SEO"
         },
         "aptitudes": {
             "title": "Hard Skills",
@@ -71,7 +71,7 @@
                 "company": "Alebat",
                 "position": "Frontend Developer (presencial)",
                 "time": "Febrero 2021 - Marzo 2023",
-                "description": "Durante mis dos años en Alebat como desarrollador front-end, participé en diversos proyectos implementando diversas tecnologías según las necesidades del cliente, una vez definidas por el equipo y visto con el equipo de diseño. He creado interfaces de usuario, elementos visuales y animaciones para campañas y desarrollado landing pages utilizando tecnologías como Vue.js. Nos apoyamos en la metodología Git Flow para la gestión de ramas. Con el tiempo, asumí mayores responsabilidades, pasando de ser becario a gestionar un área dentro del departamento de desarrollo. Esta nueva responsabilidad incluía la recopilación de requisitos por parte del cliente, la organización de tareas y equipos, y la puesta en marcha de los proyectos. Además, era responsable de proporcionar recursos a tiempo a los desarrolladores, coordinándome con los departamentos correspondientes cuando fuera necesario."
+                "description": "Durante mis dos años en Alebat como desarrollador front-end, participé en diversos proyectos implementando diversas tecnologías según las necesidades del cliente, una vez definidas por el equipo y visto con el equipo de diseño. He creado interfaces de usuario, elementos visuales y animaciones para campañas y desarrollado landing pages utilizando tecnologías como Vue.js y Wordpress personalizado. Nos apoyamos en la metodología Git Flow para la gestión de ramas. Con el tiempo, asumí mayores responsabilidades, pasando de ser becario a gestionar un área dentro del departamento de desarrollo. Esta nueva responsabilidad incluía la recopilación de requisitos por parte del cliente, la organización de tareas y equipos, y la puesta en marcha de los proyectos, Además de facilitar la adquisicioón de recursos a los desarrolladores, coordinándome con los departamentos correspondientes cuando fuera necesario."
             }
         ],
         "education": [
