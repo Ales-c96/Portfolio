@@ -88,7 +88,7 @@
             {
                 "id": "1",
                 "title": "Landing page. Tienda de plantas",
-                "description": "Una landing page para una tienda de plantas con carrito. Desarrollada con Vue 3 y SCSS. Utilicé Vuetify para el carrusel y el formulario, así como VeeValidate para las validaciones. Respecto al estilo me decanté una estética limpia, para ello busqué inspiración en Pinterest.",
+                "description": "Demo para una landing page con carrito, hecha con Vue, Scss, Vuetify y Veevalidate.",
                 "thumb": "img/Plantshop.webp",
                 "thumbAlt": "imagen del proyecto de la plantilla para tienda de plantas",
                 "url": "https://template-shop-with-cart.vercel.app/",
@@ -130,7 +130,7 @@
             {
                 "id": "6",
                 "title": "Landing page. Digitaliz",
-                "description": "Landing page de prueba para una supuesta empresa digitalizadora inventada por mí. Los textos han sido generados mediante IA y las imágenes son de libre uso.",
+                "description": "Demo de una Landing, hecha en su totalidad con Tailwind.",
                 "thumb": "img/digitaliz.webp",
                 "thumbAlt": "imagen del proyecto",
                 "url": "https://digitaliz.vercel.app/",
