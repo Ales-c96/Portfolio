@@ -71,15 +71,25 @@
             {
                 "company": "Alebat",
                 "position": "Frontend Developer (presencial)",
-                "time": "Febrero 2021 - Marzo 2023",
+                "time": "Febrero 2021 - Marzo 2023 (2 años)",
                 "description": "Durante mis dos años en Alebat como desarrollador front-end, participé en diversos proyectos implementando diversas tecnologías según las necesidades del cliente, una vez definidas por el equipo y visto con el equipo de diseño. He creado interfaces de usuario, elementos visuales y animaciones para campañas y desarrollado landing pages utilizando tecnologías como Vue.js y Wordpress personalizado. Nos apoyamos en la metodología Git Flow para la gestión de ramas. Con el tiempo, asumí mayores responsabilidades, pasando de ser becario a gestionar un área dentro del departamento de desarrollo. Esta nueva responsabilidad incluía la recopilación de requisitos por parte del cliente, la organización de tareas y equipos, y la puesta en marcha de los proyectos, Además de facilitar la adquisicioón de recursos a los desarrolladores, coordinándome con los departamentos correspondientes cuando fuera necesario."
             }
         ],
         "education": [
             {
                 "title": "IES Juan de Herrera",
-                "position": "Desarrollo de aplicaciones web",
+                "position": "Técnico Superior en Desarrollo de Aplicaciones Web",
                 "date": "2019 - 2021"
+            },
+            {
+                "title": "Udemy",
+                "position": "Curso Javascript (ES6)",
+                "date": "2023"
+            },
+            {
+                "title": "Udemy",
+                "position": "Curso Vue3",
+                "date": "2024"
             }
         ]
     },

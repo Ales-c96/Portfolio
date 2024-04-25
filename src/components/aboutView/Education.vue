@@ -12,7 +12,7 @@ const props = defineProps({
   <div class="container">
     <h2 class="container__title">Educación</h2>
     <div v-for="education in data" class="container__education">
-      <p><span class="data-exp">Centro:</span> {{ education.title }}</p>
+      <p><span class="data-exp">Centro/Plataforma:</span> {{ education.title }}</p>
       <p><span class="data-exp">Título:</span> {{ education.position }}</p>
       <p><span class="data-exp">Fecha:</span> {{ education.date }}</p>
       <SeeMore v-if="education.description">{{ education.description }}</SeeMore>
