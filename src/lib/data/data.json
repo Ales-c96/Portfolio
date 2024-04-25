@@ -2,7 +2,7 @@
     "about": {
         "description": {
             "subtitle": "Hola, me llamo Alex",
-            "description": "Soy desarrollador web, especializado en el desarrollo Front-end, implementando interfaces de usuario intuitivas y responsivas, utilizando tecnologías modernas como Vue.js, React, HTML5/CSS3 y JavaScript. Con un enfoque centrado en la experiencia del usuario. Maximizando el rendimiento mediante el uso de CDNs y buenas practicas, tratando siempre de cumplir con las pautas de accesibilidad y un enfoque SEO"
+            "description": "Soy desarrollador web Full-stack, especializado en el desarrollo Front-end. Me decanto por tecnologías modernas como Vue.js, React, HTML5/CSS3 y Javascript (ES6)."
         },
         "aptitudes": {
             "title": "Hard Skills",
@@ -63,9 +63,10 @@
         },
         "experience": [
             {
-                "company": "Madison",
+                "company": "MadisonMK",
                 "position": "Fullstak Developer (remote)",
-                "time": "Mayo 2023 - Actualidad"
+                "time": "Mayo 2023 - Actualidad",
+                "description": "Durante este tiempo, he participado en el desarrollo implementando mejoras y optimizando partes del código. He mantenido servicios y añadido nuevas funcionalidades. Además, he participado en migraciones de PHP 5 a PHP 8 y de CodeIgniter 3 a su versión 4 en algunas aplicaciones. También he desarrollado interfaces de usuario responsivas e implementado mejoras a ya existentes."
             },
             {
                 "company": "Alebat",
