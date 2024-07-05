@@ -63,9 +63,14 @@
         },
         "experience": [
             {
+                "company": "Boycor",
+                "position": "Frontend Developer (remoto)",
+                "time": "Julio 2024 - Actualidad."
+            },
+            {
                 "company": "MadisonMK",
                 "position": "Fullstak Developer (remote)",
-                "time": "Mayo 2023 - Actualidad",
+                "time": "Mayo 2023 - Junio 2024",
                 "description": "Durante este tiempo, he participado en el desarrollo implementando mejoras y optimizando partes del código. He mantenido servicios y añadido nuevas funcionalidades. Además, he participado en migraciones de PHP 5 a PHP 8 y de CodeIgniter 3 a su versión 4 en algunas aplicaciones. También he desarrollado interfaces de usuario responsivas e implementado mejoras a ya existentes."
             },
             {
